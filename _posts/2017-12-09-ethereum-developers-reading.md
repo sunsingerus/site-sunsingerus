@@ -1,0 +1,61 @@
+---
+ID: 6
+post_title: 'Ethereum Developer&#8217;s Reading'
+author: sunsingerus
+post_excerpt: ""
+layout: post
+permalink: >
+  http://sunsingerus.com/ethereum-developers-reading/
+published: true
+post_date: 2017-12-09 14:55:50
+---
+<ul>
+ 	<li>Full Stack Hello World Voting Ethereum Dapp Tutorial:</li>
+</ul>
+<a href="https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2" target="_blank" rel="noopener">Part 1</a>
+
+<a href="https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-2-30b3d335aa1f" target="_blank" rel="noopener">Part 2</a>
+
+<a href="https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-3-331c2712c9df" target="_blank" rel="noopener">Part 3</a>
+
+<a href="https://github.com/maheshmurthy/ethereum_voting_dapp" target="_blank" rel="noopener">github repo</a>
+<ul>
+ 	<li>Solidity By Example <a href="https://github.com/maheshmurthy/solidity-by-example" target="_blank" rel="noopener">repo</a></li>
+ 	<li>readme <a href="https://github.com/maheshmurthy/eth-dev-reading-list" target="_blank" rel="noopener">repo</a></li>
+ 	<li><a href="https://dappsforbeginners.wordpress.com/" target="_blank" rel="noopener">dapps for Beginners</a></li>
+ 	<li><a href="https://habrahabr.ru/post/327236/" target="_blank" rel="noopener">Dive into Ethereum</a></li>
+ 	<li><a href="https://habrahabr.ru/post/312008/" target="_blank" rel="noopener">Пишем умный контракт на Solidity.</a></li>
+ 	<li>Погружение в разработку на Ethereum: <a href="https://habrahabr.ru/post/336132/" target="_blank" rel="noopener">Часть 1,</a> <a href="https://habrahabr.ru/post/336770/" target="_blank" rel="noopener">Часть 2, </a><a href="https://habrahabr.ru/post/339080/" target="_blank" rel="noopener">Часть 3</a></li>
+ 	<li><a href="http://inaword.ru/smart-kontrakty/">http://inaword.ru/smart-kontrakty/</a></li>
+ 	<li><a href="https://jacksonng.org/Go-Dutch-Dapp" target="_blank" rel="noopener">Dapp to capture supper expenses</a></li>
+ 	<li><a href="https://github.com/ethereum/wiki/wiki/Useful-%C3%90app-Patterns" target="_blank" rel="noopener">Useful Ðapp Patterns</a></li>
+ 	<li><a href="https://github.com/ethereum/go-ethereum/wiki/Managing-your-accounts">managing your accounts</a></li>
+ 	<li><a href="https://github.com/ethereum/go-ethereum/wiki/Contracts-and-Transactions">Contracts and Transactions</a></li>
+ 	<li><a href="https://monax.io/docs/solidity/">monax</a></li>
+ 	<li><a href="https://medium.com/loom-network/how-to-code-your-own-cryptokitties-style-game-on-ethereum-7c8ac86a4eb3">How to code your own CryptoKitties</a></li>
+</ul>
+REPOS
+<ul>
+ 	<li><a href="https://github.com/ahoolee/smartcontracts">https://github.com/ahoolee/smartcontracts</a></li>
+</ul>
+FRAMEWORKS
+<ul>
+ 	<li><a href="http://truffleframework.com/tutorials/pet-shop" target="_blank" rel="noopener">Truffle</a></li>
+ 	<li><a href="http://web3js.readthedocs.io/en/1.0/index.html#" target="_blank" rel="noopener">web3.js</a></li>
+ 	<li><a href="https://github.com/ethereum/wiki/wiki/JavaScript-API#web3js-api-reference" target="_blank" rel="noopener">reference</a></li>
+ 	<li><a href="https://github.com/ethereum/web3.js/tree/master/example" target="_blank" rel="noopener">web3.js examples</a></li>
+</ul>
+TOOLS
+<ul>
+ 	<li><a href="https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console" target="_blank" rel="noopener">geth</a></li>
+</ul>
+ICOs
+<ul>
+ 	<li><a href="https://xwin.io/en">https://xwin.io/en</a></li>
+ 	<li></li>
+</ul>
+&nbsp;
+
+&nbsp;
+
+&nbsp;
