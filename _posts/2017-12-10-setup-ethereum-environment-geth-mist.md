@@ -27,5 +27,6 @@ Download Mist distro from <a href="https://github.com/ethereum/mist/releases" re
 <code>
 wget https://github.com/ethereum/mist/releases/download/v0.9.3/Mist-linux64-0-9-3.deb
 sudo apt-get install ./Mist-linux64-0-9-3.deb
+./mist-network-test.sh
 </code>
 <h1>Setup Launch Scripts</h1>
