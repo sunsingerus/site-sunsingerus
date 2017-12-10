@@ -24,3 +24,5 @@ sudo apt-get install ethereum
 
 <h1>Install Mist</h1>
 Download Mist distro from <a href="https://github.com/ethereum/mist/releases" rel="noopener" target="_blank">releases</a> page and install it
+
+<h1>Setup Launch Scripts</h1>
