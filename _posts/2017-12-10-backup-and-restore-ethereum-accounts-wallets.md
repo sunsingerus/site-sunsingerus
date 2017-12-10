@@ -7,7 +7,7 @@ author: sunsingerus
 post_excerpt: ""
 layout: post
 permalink: >
-  http://sunsingerus.com/backup-and-restore-ethereum-accountswallets/
+  http://sunsingerus.com/backup-and-restore-ethereum-accounts-wallets/
 published: true
 post_date: 2017-12-10 16:59:03
 ---
