@@ -11,24 +11,21 @@ post_date: 2017-12-10 16:42:43
 ---
 <h1>Install geth</h1>
 Enable PPA repo
-<pre class="prettyprint">
-sudo add-apt-repository -y ppa:ethereum/ethereum
+<pre class="prettyprint">sudo add-apt-repository -y ppa:ethereum/ethereum
 </pre>
 Install geth
-<pre class="prettyprint">
-sudo apt-get update
+<pre class="prettyprint">sudo apt-get update
 sudo apt-get install ethereum
 </pre>
 <h1>Restore accounts from backup</h1>
 as <a href="http://sunsingerus.com/backup-and-restore-ethereum-accountswallets/" target="_blank" rel="noopener">described here</a>
 <h1>Install Mist</h1>
 Download Mist distro from <a href="https://github.com/ethereum/mist/releases" target="_blank" rel="noopener">releases</a> page and install it
-<pre class="prettyprint">
-wget https://github.com/ethereum/mist/releases/download/v0.9.3/Mist-linux64-0-9-3.deb
+<pre class="prettyprint">wget https://github.com/ethereum/mist/releases/download/v0.9.3/Mist-linux64-0-9-3.deb
 sudo apt-get install ./Mist-linux64-0-9-3.deb
 </pre>
-
 <h1>Setup Launch Scripts</h1>
-<pre class="prettyprint">
-./mist-network-test.sh
+<pre class="prettyprint">./mist-network-test.sh
 </pre>
+Mist screen while Ropsten network sync in progress
+<img class="alignnone size-full wp-image-28" src="http://sunsingerus.com/wp-content/uploads/2017/12/sync-in-progress-ropsten.png" alt="" width="1234" height="746" />
