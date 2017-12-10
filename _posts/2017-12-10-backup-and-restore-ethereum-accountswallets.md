@@ -1,8 +1,8 @@
 ---
 ID: 14
 post_title: >
-  Backup and restore Ethereum
-  accounts/wallets
+  Backup and restore Ethereum accounts
+  (wallets)
 author: sunsingerus
 post_excerpt: ""
 layout: post
