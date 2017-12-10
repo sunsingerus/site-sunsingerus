@@ -21,6 +21,7 @@ sudo apt-get install ethereum
 </code>
 
 <h1>Restore accounts from backup</h1>
+as <a href="http://sunsingerus.com/backup-and-restore-ethereum-accountswallets/" rel="noopener" target="_blank">described here</a>
 
 <h1>Install Mist</h1>
 Download Mist distro from <a href="https://github.com/ethereum/mist/releases" rel="noopener" target="_blank">releases</a> page and install it
