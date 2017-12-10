@@ -12,19 +12,23 @@ published: true
 post_date: 2017-12-10 16:59:03
 ---
 In order to backup ethereum accounts (wallets) just make a copy of the key files located in your ethereum directory. On Linux it would be the following dirs (for different networks respectively):
-<code>
-mainnet: ~/.ethereum/keystore
-ropsten: ~/.ethereum/testnet/keystore
-rinkeby: ~/.ethereum/rinkeby/keystore
-</code>
+[code language="bash" title="mainnet"]
+~/.ethereum/keystore
+[/code]
+[code language="bash" title="ropsten"]
+~/.ethereum/testnet/keystore
+[code language="bash" title="rinkeby"]
+~/.ethereum/rinkeby/keystore
+[/code]
 
 Each of these directories contains files like the following:
-<code>
+[code language="bash"]
 UTC--2017-11-26T08-09-02.536023214Z--164619fcbcdf6e4ef1e3db1dc0021bc2d910104b
 UTC--2017-12-02T16-26-59.253668139Z--8d7e31f97f6b422a5ea01e936788741fb096afe9
 UTC--2017-12-02T16-31-58.652789498Z--8397cd797e2627d2ccf3ef2d2182bc1bacefaebc
-</code>
+[/code]
 
+[code language=bash]
 mkdir -p ~/.ethereum/testnet/keystore/
 chmod 700 ~/ethereum
 chmod 700 ~/ethereum/testnet
