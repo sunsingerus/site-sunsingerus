@@ -69,7 +69,8 @@ at block: 0 (Thu, 01 Jan 1970 03:00:00 MSK)
 INFO [12-10|20:34:12] Block synchronisation started 
 
 
-
+user@mint182 ~/dev/eth-misc-scripts $ du -sh ~/.ethereum/testnet/geth/chaindata/
+46M	/home/user/.ethereum/testnet/geth/chaindata/
 
 
 You can backup the entire /ethereum directory with all chaindata files - which requires much more free space. On the other hand, you'll save some time on downloading cbaindata after restroing backup
