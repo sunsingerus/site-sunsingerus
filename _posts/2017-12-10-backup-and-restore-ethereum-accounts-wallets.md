@@ -88,11 +88,19 @@ datadir: /home/user/.ethereum/testnet
 modules: admin:1.0 debug:1.0 eth:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
 
 &gt;</pre>
-We are looking for the following line to appear
+We are looking for the following line to appear (after some time)
 <pre class="prettyprint">INFO [12-10|20:34:12] Block synchronisation started</pre>
 Just check how chaindata are coming:
-<pre class="prettyprint">user@mint182 ~/dev/eth-misc-scripts $ du -sh ~/.ethereum/testnet/geth/chaindata/
+<pre class="prettyprint">
+user@mint182 ~/dev/eth-misc-scripts $ du -sh ~/.ethereum/testnet/geth/chaindata/
 46M /home/user/.ethereum/testnet/geth/chaindata/
-
 </pre>
+
+followed by 
+<pre class="prettyprint">
+INFO [12-11|17:21:49] Imported new block headers               count=192 elapsed=1.370s number=192 hash=9d4976…cf6e5b ignored=0
+INFO [12-11|17:21:49] Imported new block receipts              count=10  elapsed=209.545µs bytes=40 number=10  hash=b3074f…dde93e ignored=0
+INFO [12-11|17:21:50] Imported new block receipts              count=3   elapsed=3.002ms   bytes=8150 number=13  hash=f9ff47…e4912b ignored=0
+</pre>
+
 &nbsp;
