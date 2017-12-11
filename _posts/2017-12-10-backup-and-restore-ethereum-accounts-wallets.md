@@ -33,10 +33,12 @@ To import saved account/wallet files, just copy them into the new keystore direc
 <h1>Restore
 <!--?prettify linenums=true?--></h1>
 Create directories structure with proper access rights
+
+ropsten
 <pre class="prettyprint">mkdir -p ~/.ethereum/testnet/keystore/
-chmod 700 ~/ethereum
-chmod 700 ~/ethereum/testnet
-chmod 700 ~/ethereum/testnet/keystore</pre>
+chmod 700 ~/.ethereum
+chmod 700 ~/.ethereum/testnet
+chmod 700 ~/.ethereum/testnet/keystore</pre>
 Copy key files and set proper access rights
 <pre class="prettyprint">rw------- 1 user user 491 Dec 10 20:28 UTC--2017-11-26T08-09-02.536023214Z--164619fcbcdf6e4ef1e3db1dc0021bc2d910104b
 -rw------- 1 user user 491 Dec 10 20:28 UTC--2017-12-02T16-26-59.253668139Z--8d7e31f97f6b422a5ea01e936788741fb096afe9
