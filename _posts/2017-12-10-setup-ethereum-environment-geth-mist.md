@@ -25,11 +25,16 @@ Download Mist distro from <a href="https://github.com/ethereum/mist/releases" ta
 sudo apt-get install ./Mist-linux64-0-9-3.deb
 </pre>
 <h1>Setup Launch Scripts</h1>
-<pre class="prettyprint">./mist-network-test.sh
+<pre class="prettyprint">
+git clone https://github.com/sunsingerus/eth-misc-scripts
+cd eth-misc-scripts/
+</pre>
+<h1>Launch Mist</h1>
+<pre class="prettyprint">
+./mist-network-test.sh
 </pre>
 Mist screen while Ropsten network sync in progress
 <img class="alignnone size-full wp-image-28" src="http://sunsingerus.com/wp-content/uploads/2017/12/sync-in-progress-ropsten.png" alt="" width="1234" height="746" />
 
-The most interesting is Ropsten sync progress status - about 33% dowloaded, 988802 blocks to go
-
+The most interesting is Ropsten sync progress status - about 33% downloaded, 988802 blocks to go
 <img class="alignnone size-full wp-image-30" src="http://sunsingerus.com/wp-content/uploads/2017/12/sync-in-progress-ropsten-corner.png" alt="" width="400" height="170" />
