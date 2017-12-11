@@ -40,10 +40,15 @@ chmod 700 ~/.ethereum
 chmod 700 ~/.ethereum/testnet
 chmod 700 ~/.ethereum/testnet/keystore</pre>
 Copy key files and set proper access rights
-<pre class="prettyprint">rw------- 1 user user 491 Dec 10 20:28 UTC--2017-11-26T08-09-02.536023214Z--164619fcbcdf6e4ef1e3db1dc0021bc2d910104b
--rw------- 1 user user 491 Dec 10 20:28 UTC--2017-12-02T16-26-59.253668139Z--8d7e31f97f6b422a5ea01e936788741fb096afe9
--rw------- 1 user user 491 Dec 10 20:28 UTC--2017-12-02T16-31-58.652789498Z--8397cd797e2627d2ccf3ef2d2182bc1bacefaebc
-
+<pre class="prettyprint">
+user@mint182 ~ $ chmod 0600 ~/.ethereum/testnet/keystore/*
+user@mint182 ~ $ ls -l ~/.ethereum/testnet/keystore/
+total 20
+drwx------ 2 user user 4096 Dec 11 17:03 ./
+drwx------ 3 user user 4096 Dec 11 17:00 ../
+-rw------- 1 user user 491 Dec 11 17:03 UTC--2017-11-26T08-09-02.536023214Z--164619fcbcdf6e4ef1e3db1dc0021bc2d910104b
+-rw------- 1 user user 491 Dec 11 17:03 UTC--2017-12-02T16-26-59.253668139Z--8d7e31f97f6b422a5ea01e936788741fb096afe9
+-rw------- 1 user user 491 Dec 11 17:03 UTC--2017-12-02T16-31-58.652789498Z--8397cd797e2627d2ccf3ef2d2182bc1bacefaebc
 </pre>
 Ensure accounts are accepted by geth
 <pre class="prettyprint">./geth-ropsten-account-list.sh
