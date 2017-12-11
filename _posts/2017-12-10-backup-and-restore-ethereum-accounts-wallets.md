@@ -48,7 +48,14 @@ user@mint182 ~ $ ls -l ~/.ethereum/testnet/keystore/
 -rw------- 1 user user 491 Dec 11 17:03 UTC--2017-12-02T16-31-58.652789498Z--8397cd797e2627d2ccf3ef2d2182bc1bacefaebc
 </pre>
 Ensure accounts are accepted by geth
-<pre class="prettyprint">./geth-ropsten-account-list.sh
+
+<pre class="prettyprint">
+git clone https://github.com/sunsingerus/eth-misc-scripts
+cd eth-misc-scripts/
+</pre>
+
+<pre class="prettyprint">
+./geth-ropsten-account-list.sh
 Account #0: {164619fcbcdf6e4ef1e3db1dc0021bc2d910104b} keystore:///home/user/.ethereum/testnet/keystore/UTC--2017-11-26T08-09-02.536023214Z--164619fcbcdf6e4ef1e3db1dc0021bc2d910104b
 Account #1: {8d7e31f97f6b422a5ea01e936788741fb096afe9} keystore:///home/user/.ethereum/testnet/keystore/UTC--2017-12-02T16-26-59.253668139Z--8d7e31f97f6b422a5ea01e936788741fb096afe9
 Account #2: {8397cd797e2627d2ccf3ef2d2182bc1bacefaebc} keystore:///home/user/.ethereum/testnet/keystore/UTC--2017-12-02T16-31-58.652789498Z--8397cd797e2627d2ccf3ef2d2182bc1bacefaebc
