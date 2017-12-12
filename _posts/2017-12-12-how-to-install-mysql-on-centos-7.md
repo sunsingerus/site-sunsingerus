@@ -16,18 +16,18 @@ sudo yum install -y https://dev.mysql.com/get/mysql57-community-release-el7-11.n
 <pre class="prettyprint">
 [user@localhost ~]$ yum list 'mysql-community*'
 Installed Packages
-mysql-community-common.x86_64                         5.7.20-1.el7                @mysql57-community
-mysql-community-devel.x86_64                          5.7.20-1.el7                @mysql57-community
-mysql-community-libs.x86_64                           5.7.20-1.el7                @mysql57-community
-mysql-community-libs-compat.x86_64                    5.7.20-1.el7                @mysql57-community
+mysql-community-common.x86_64          5.7.20-1.el7 @mysql57-community
+mysql-community-devel.x86_64           5.7.20-1.el7 @mysql57-community
+mysql-community-libs.x86_64            5.7.20-1.el7 @mysql57-community
+mysql-community-libs-compat.x86_64     5.7.20-1.el7 @mysql57-community
 Available Packages
-mysql-community-client.x86_64                         5.7.20-1.el7                mysql57-community
-mysql-community-embedded.x86_64                       5.7.20-1.el7                mysql57-community
-mysql-community-embedded-compat.x86_64                5.7.20-1.el7                mysql57-community
-mysql-community-embedded-devel.x86_64                 5.7.20-1.el7                mysql57-community
-mysql-community-release.noarch                        el7-7                       mysql57-community
-mysql-community-server.x86_64                         5.7.20-1.el7                mysql57-community
-mysql-community-test.x86_64                           5.7.20-1.el7                mysql57-community
+mysql-community-client.x86_64          5.7.20-1.el7 mysql57-community
+mysql-community-embedded.x86_64        5.7.20-1.el7 mysql57-community
+mysql-community-embedded-compat.x86_64 5.7.20-1.el7 mysql57-community
+mysql-community-embedded-devel.x86_64  5.7.20-1.el7 mysql57-community
+mysql-community-release.noarch         el7-7        mysql57-community
+mysql-community-server.x86_64          5.7.20-1.el7 mysql57-community
+mysql-community-test.x86_64            5.7.20-1.el7 mysql57-community
 </pre>
 
 <pre class="prettyprint">
