@@ -9,10 +9,13 @@ permalink: >
 published: true
 post_date: 2017-12-12 11:25:30
 ---
-Prepare
+Optional - update packages
 <pre class="prettyprint">
 sudo yum -y update
-sudo yum -y install yum-util
+</pre>
+Prepare
+<pre class="prettyprint">
+sudo yum -y install yum-utils
 </pre>
 
 Install IUS repo
