@@ -11,10 +11,12 @@ post_date: 2017-12-10 16:42:43
 ---
 <h1>Install geth</h1>
 Enable PPA repo
-<pre class="prettyprint">sudo add-apt-repository -y ppa:ethereum/ethereum
+<pre class="prettyprint">
+sudo add-apt-repository -y ppa:ethereum/ethereum
 </pre>
 Install geth
-<pre class="prettyprint">sudo apt-get update
+<pre class="prettyprint">
+sudo apt-get update
 sudo apt-get install ethereum
 </pre>
 <h1>Restore accounts from backup</h1>
