@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2017-12-15 10:35:04
 ---
-<a href="https://www.softwarecollections.org/en/scls/rhscl/devtoolset-7/" target="_blank" rel="noopener">Software Collections</a> rpm is distributed with CentOS
+<a href="https://www.softwarecollections.org/en/scls/rhscl/devtoolset-7/" target="_blank" rel="noopener">Software Collections</a> rpm is distributed with CentOS.
 <pre class="prettyprint">sudo yum install centos-release-scl
 </pre>
 For the whole collection just install:
