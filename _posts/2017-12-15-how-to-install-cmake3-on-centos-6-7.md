@@ -1,11 +1,11 @@
 ---
 ID: 98
-post_title: How To Install cmake3 on CentOS
+post_title: How To Install cmake3 on CentOS 6/7
 author: sunsingerus
 post_excerpt: ""
 layout: post
 permalink: >
-  http://sunsingerus.com/how-to-install-cmake3-on-centos/
+  http://sunsingerus.com/how-to-install-cmake3-on-centos-6-7/
 published: true
 post_date: 2017-12-15 10:53:07
 ---
