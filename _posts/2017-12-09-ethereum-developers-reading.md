@@ -34,9 +34,16 @@ post_date: 2017-12-09 14:55:50
  	<li><a href="https://monax.io/docs/solidity/">monax</a></li>
  	<li><a href="https://medium.com/loom-network/how-to-code-your-own-cryptokitties-style-game-on-ethereum-7c8ac86a4eb3">How to code your own CryptoKitties</a></li>
 </ul>
-REPOS
+Repos and Software Collections
 <ul>
+ 	<li><a href="https://github.com/OpenZeppelin/zeppelin-solidity">https://github.com/OpenZeppelin/zeppelin-solidity</a></li>
+ 	<li><a href="https://github.com/ConsenSys/Tokens">https://github.com/ConsenSys/Tokens</a></li>
+ 	<li><a href="https://github.com/ConsenSys/smart-contract-best-practices">https://github.com/ConsenSys/smart-contract-best-practices</a></li>
+ 	<li><a href="https://github.com/ConsenSys/Token-Factory">https://github.com/ConsenSys/Token-Factory</a></li>
+ 	<li><a href="https://github.com/ConsenSys/simple-token-sale">https://github.com/ConsenSys/simple-token-sale</a></li>
+ 	<li><a href="https://github.com/Giveth/minime"></a>https://github.com/Giveth/minime</li>
  	<li><a href="https://github.com/ahoolee/smartcontracts">https://github.com/ahoolee/smartcontracts</a></li>
+
 </ul>
 FRAMEWORKS
 <ul>
