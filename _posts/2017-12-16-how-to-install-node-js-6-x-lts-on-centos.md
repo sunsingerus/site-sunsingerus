@@ -11,10 +11,10 @@ post_date: 2017-12-16 15:08:43
 ---
 Install repository
 <pre>
-curl -sL https://rpm.nodesource.com/setup_6.x | bash -
+curl -sL https://rpm.nodesource.com/setup_6.x | sudo bash -
 </pre>
 
 Install Node.js and npm
 <pre>
-yum install nodejs
+sudo yum install nodejs
 </pre>
