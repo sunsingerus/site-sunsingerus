@@ -11,10 +11,10 @@ post_date: 2017-12-16 15:05:00
 ---
 Install repository
 <pre>
-curl -sL https://deb.nodesource.com/setup_6.x | bash -
+curl -sL https://deb.nodesource.com/setup_6.x | sudo bash -
 </pre>
 
 Install Node.js and npm
 <pre>
-apt-get install nodejs
+sudo apt-get install nodejs
 </pre>
