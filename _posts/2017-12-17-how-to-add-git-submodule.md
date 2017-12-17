@@ -1,11 +1,11 @@
 ---
 ID: 116
-post_title: How To Add Git Sunbmodule
+post_title: How To Add Git Submodule
 author: sunsingerus
 post_excerpt: ""
 layout: post
 permalink: >
-  http://sunsingerus.com/how-to-add-git-sunbmodule/
+  http://sunsingerus.com/how-to-add-git-submodule/
 published: true
 post_date: 2017-12-17 18:37:06
 ---
