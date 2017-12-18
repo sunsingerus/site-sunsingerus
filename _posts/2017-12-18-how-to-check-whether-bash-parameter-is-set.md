@@ -22,7 +22,7 @@ post_date: 2017-12-18 12:21:54
         fi
 }
 </pre>
-where ${1+x} is a first function parameter <a href="http://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_06_02" target="_blank" rel="noopener">expanstion</a> (check <code>${parameter+word}</code> explanation)
+where ${1+x} is a first function parameter <a href="http://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_06_02" target="_blank" rel="noopener">expansion</a> (check <code>${parameter+word}</code> explanation)
 
 call function as
 <pre>test
