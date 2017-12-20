@@ -1,8 +1,8 @@
 ---
 ID: 146
 post_title: >
-  How To Check If a Directory Exists
-  (BASH)
+  How To Check If a Directory Exists Using
+  BASH
 author: sunsingerus
 post_excerpt: ""
 layout: post
