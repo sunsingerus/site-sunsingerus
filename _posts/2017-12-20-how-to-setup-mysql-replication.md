@@ -85,7 +85,7 @@ binlog_do_db = db_name
 
 <h5>Start Replication on Slave</h5>
 <pre>
-CHANGE MASTER TO MASTER_HOST='10.10.0.1', MASTER_USER='replication_user', MASTER_PASSWORD='qwerty', MASTER_LOG_FILE = 'bin.000001', MASTER_LOG_POS = 123;
+CHANGE MASTER TO MASTER_HOST='192.168.1.1', MASTER_USER='replication_user', MASTER_PASSWORD='qwerty', MASTER_LOG_FILE = 'bin.000001', MASTER_LOG_POS = 123;
 </pre>
 <pre>
 START SLAVE;
