@@ -44,7 +44,7 @@ mysql> SHOW MASTER STATUS;
 </pre>
 <code>File</code> and <code>Position</code> field values (<code>bin.000001</code> and <code>123</code> respectively) are important and will be used later - on Slave during <strong>Start Replication on Slave</strong> procedure.
 
-<h5>Migrate data from Master to Slave</h5>
+<h5>Migrate Data from Master to Slave</h5>
 <h6>On Master</h6>
 <pre>
 USE db_name;
