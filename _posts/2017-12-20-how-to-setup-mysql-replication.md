@@ -91,3 +91,9 @@ CHANGE MASTER TO MASTER_HOST='10.10.0.1', MASTER_USER='replication_user', MASTER
 START SLAVE;
 SHOW SLAVE STATUS;
 </pre>
+Important lines are
+<pre>
+           Slave_IO_Running: Yes
+          Slave_SQL_Running: Yes
+</pre>
+in <code>SHOW SLAVE STATUS</code> output
