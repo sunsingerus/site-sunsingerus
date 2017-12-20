@@ -1,11 +1,13 @@
 ---
 ID: 146
-post_title: How To Check If a Directory Exists
+post_title: >
+  How To Check If a Directory Exists
+  (BASH)
 author: sunsingerus
 post_excerpt: ""
 layout: post
 permalink: >
-  http://sunsingerus.com/how-to-check-if-a-directory-exists/
+  http://sunsingerus.com/how-to-check-if-a-directory-exists-bash/
 published: true
 post_date: 2017-12-20 08:53:54
 ---
