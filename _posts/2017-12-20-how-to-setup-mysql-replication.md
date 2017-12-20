@@ -67,6 +67,7 @@ mysql -u root -p db_name < db_name.sql
 </pre>
 
 <h5>Configuration file on Slave</h5>
+Edit <code>my.cnf</code>
 <pre>
 # MANDATORY. Slave ID. Random unique number.
 server-id = 2
