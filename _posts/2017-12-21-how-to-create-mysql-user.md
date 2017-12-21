@@ -48,7 +48,7 @@ mysql>
 <h5>So, what's going on?</h5>
 The issue at hand is an <strong>anonymous user for localhost</strong>. It takes precedence when 'testuser' connects from the localhost. Why so? The reason for this is that the anonymous user has a more specific <code>hostname</code> specified than the <code>'%'</code> and thus comes earlier in the user table sort order. Let's take a look on this anonymous user:
 <pre>
-mysql> SELECT Host, User, Password FROM User WHERE user = '';
+mysql> SELECT Host, User, Password FROM mysql.User WHERE user = '';
 +-----------------------+------+----------+
 | Host                  | User | Password |
 +-----------------------+------+----------+
