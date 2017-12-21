@@ -18,7 +18,7 @@ FLUSH PRIVILEGES;
 </pre>
 
 All looks fine - <code>'testuser'@'%'</code> indeed means 'from all hosts'
-However, there is a subtle nuance. Attempt to login with <code>testuser </code> locally (i.e. from the same host where MySQL is running) fails.
+However, there is a subtle nuance. Attempt to login with <code>testuser </code> locally (i.e. from the same host where MySQL is running) <strong>FAILS</strong>.
 
 <pre>
 [user@localhost ~]$ mysql -utestuser -ppassword
