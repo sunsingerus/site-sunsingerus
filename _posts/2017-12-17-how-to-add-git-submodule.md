@@ -39,3 +39,4 @@ user@cinnamon ~/dev/eth-dapp-petshop $ cat .gitmodules
 	path = bin
 	url = https://github.com/sunsingerus/eth-misc-scripts
 </pre>
+Full list of submodules with their local and github paths.
