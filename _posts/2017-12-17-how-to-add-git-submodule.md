@@ -24,7 +24,7 @@ drwxrwxr-x   2 user user  4096 Dec 17 21:04 bin/
 -rw-rw-r--   1 user user    85 Dec 17 21:04 .gitmodules
 </pre>
 
-<strong>However, there is a small trick.<strong>
+<strong>However, there is a small trick.</strong>
 In case added submodule has nested submodules - submodule inside submodule, etc - they are not initialized by default - meaning their folders are empty.
 Need to run 
 <pre>
