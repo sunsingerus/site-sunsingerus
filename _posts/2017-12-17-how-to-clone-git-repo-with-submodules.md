@@ -9,12 +9,13 @@ permalink: >
 published: true
 post_date: 2017-12-17 19:02:55
 ---
-For already cloned repo:
+For already cloned repo run:
 <pre>
 git submodule update --init --recursive
 </pre>
+in order to initialize all submodules
 OR
-Clone repo with all submodules:
+Clone repo with all submodules included:
 <pre>
 git clone --recursive https://github.com/sunsingerus/eth-dapp-petshop
 </pre>
