@@ -23,6 +23,15 @@ So, after running <code>git submodule add</code> we'll have added:
 drwxrwxr-x   2 user user  4096 Dec 17 21:04 bin/
 -rw-rw-r--   1 user user    85 Dec 17 21:04 .gitmodules
 </pre>
+
+However, there is a small trick.
+In case added submodule has nested submodules - submodule inside submodule, etc - they are not initialized by default - meaning thir folders are empty.
+Need to run 
+<pre>
+git submodule update --init --recursive
+</pre>
+in order to initialize the whole submodules tree.
+
 Let's take a look into <code>.gitmodules</code>
 <pre>
 user@cinnamon ~/dev/eth-dapp-petshop $ cat .gitmodules 
