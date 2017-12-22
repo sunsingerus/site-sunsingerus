@@ -25,7 +25,7 @@ drwxrwxr-x   2 user user  4096 Dec 17 21:04 bin/
 </pre>
 
 <strong>However, there is a small trick.</strong>
-In case added submodule has nested submodules - submodule inside submodule, etc - they are not initialized by default - meaning their folders are empty.
+In case added submodule has nested submodules - submodule inside submodule, etc - they <strong>ARE NOT INITIALIZED</strong> by default - meaning their folders are empty.
 Need to run 
 <pre>
 git submodule update --init --recursive
