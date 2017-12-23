@@ -13,7 +13,7 @@ post_date: 2017-12-23 19:19:59
 What is <strong>Ganache</strong>?
 Ganache is your personal blockchain for Ethereum development.
 Available on <a href="https://github.com/trufflesuite/ganache" target="_blank" rel="noopener">github</a>
-Let's get started
+
 <h5>Download</h5>
 Download Ganache <a href="https://github.com/trufflesuite/ganache/releases/latest" target="_blank" rel="noopener">latest release</a>. We'll use <code>ganache-1.0.1-x86_64.AppImage</code>.
 It is an executable file,
