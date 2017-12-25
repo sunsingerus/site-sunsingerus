@@ -11,10 +11,19 @@ post_date: 2017-12-25 11:06:58
 ---
 Suppose we'd like to get sources tagged <code>v1.1.54327-stable</code> from <code>https://github.com/yandex/ClickHouse</code> repo
 
+<h5>Clone repo</h5>
 Newer git versions support <code>--branch</code> option with tags:
 <pre>
 git clone --branch v1.1.54327-stable https://github.com/yandex/ClickHouse ClickHouse-1.1.54327-stable
 </pre>
+
+if you need <strong>submodules</strong>, append <code>--recursive</code>
+
+<pre>
+git clone --recursive --branch v1.1.54327-stable https://github.com/yandex/ClickHouse ClickHouse-1.1.54327-stable
+</pre>
+
+<strong>Fore never git ALL IS DONE</strong>
 
 Older version can't fetch tag with <code>--branch v1.1.54327-stable</code>, we need another approach
 
@@ -22,6 +31,8 @@ Older version can't fetch tag with <code>--branch v1.1.54327-stable</code>, we n
 $ git clone https://github.com/yandex/ClickHouse
 </pre>
 will give the whole repo.
+
+<h5>Checkout required tag</h5>
 <pre>
 $ cd ClickHouse
 </pre>
@@ -38,3 +49,9 @@ We can checkout and create a branch in one move:
 <pre>
 $ git checkout v1.1.54327-stable -b v1.1.54327-stable
 </pre>
+
+<h5>Init submodules</h5>
+<pre>
+git submodule update --init --recursive
+</pre>
+<strong>DONE</strong>
