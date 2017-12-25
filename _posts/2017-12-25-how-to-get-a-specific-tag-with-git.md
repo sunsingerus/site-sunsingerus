@@ -31,10 +31,10 @@ $ git tag -l
 </pre>
 and checkout a specific tag:
 <pre>
-$ git checkout tags/v1.1.54327-stable
+$ git checkout v1.1.54327-stable
 </pre>
 We are on a branch named after the revision number of tag, which is sometimes inconvenient.
 We can checkout and create a branch in one move:
 <pre>
-$ git checkout tags/v1.1.54327-stable -b v1.1.54327-stable
+$ git checkout v1.1.54327-stable -b v1.1.54327-stable
 </pre>
