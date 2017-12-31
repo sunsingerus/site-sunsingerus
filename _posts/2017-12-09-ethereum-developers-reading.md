@@ -51,7 +51,10 @@ post_date: 2017-12-09 14:55:50
  	<li>ERC721 token <a href="https://github.com/m0t0k1ch1/ERC721-token-sample">https://github.com/m0t0k1ch1/ERC721-token-sample</a></li>
  	<li>ERC721 token <a href="https://github.com/dharmaprotocol/NonFungibleToken">https://github.com/dharmaprotocol/NonFungibleToken</a></li>
  	<li>ERC721 token <a href="https://github.com/7flash/NFT">https://github.com/7flash/NFT</a></li>
-<li><a href="https://github.com/ImFeelingDucky/NonFungibleToken">https://github.com/ImFeelingDucky/NonFungibleToken</a></li>
+ 	<li><a href="https://github.com/ImFeelingDucky/NonFungibleToken">https://github.com/ImFeelingDucky/NonFungibleToken</a></li>
+ 	<li>Random <a href="https://github.com/axiomzen/eth-random">https://github.com/axiomzen/eth-random</a></li>
+<li><a href="https://github.com/postables/Postables-Solidity-Modules">https://github.com/postables/Postables-Solidity-Modules</a></li>
+<li>Various Tokens collection<a href="https://github.com/bokkypoobah/Tokens">https://github.com/bokkypoobah/Tokens</a></li>
 </ul>
 </li>
 </ul>
