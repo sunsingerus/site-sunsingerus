@@ -32,6 +32,10 @@ post_date: 2017-12-09 14:55:50
 </ul>
 <h5>Repos and Software Collections</h5>
 <ul>
+ 	<li style="list-style-type: none;">
+<ul>
+ 	<li style="list-style-type: none">
+<ul>
  	<li><a href="https://github.com/OpenZeppelin/zeppelin-solidity">https://github.com/OpenZeppelin/zeppelin-solidity</a></li>
  	<li><a href="https://github.com/ConsenSys/Tokens">https://github.com/ConsenSys/Tokens</a></li>
  	<li><a href="https://github.com/ConsenSys/smart-contract-best-practices">https://github.com/ConsenSys/smart-contract-best-practices</a></li>
@@ -42,6 +46,15 @@ post_date: 2017-12-09 14:55:50
  	<li><a href="https://github.com/rhlsthrm/eth-with-friends">https://github.com/rhlsthrm/eth-with-friends</a></li>
  	<li><a href="https://github.com/rhlsthrm/presale-fund-collector">https://github.com/rhlsthrm/presale-fund-collector</a></li>
  	<li><a href="https://github.com/7flash/ico-contracts">https://github.com/7flash/ico-contracts</a></li>
+ 	<li><a href="https://github.com/masonicGIT/ico-whitepapers">https://github.com/masonicGIT/ico-whitepapers</a></li>
+ 	<li><a href="https://github.com/TokenMarketNet/ico">https://github.com/TokenMarketNet/ico</a></li>
+<li>ERC721 token <a href="https://github.com/m0t0k1ch1/ERC721-token-sample">https://github.com/m0t0k1ch1/ERC721-token-sample</a></li>
+<li>ERC721 token <a href="https://github.com/dharmaprotocol/NonFungibleToken">https://github.com/dharmaprotocol/NonFungibleToken</a></li>
+<li>ERC721 token <a href="https://github.com/7flash/NFT">https://github.com/7flash/NFT</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 <h5>FRAMEWORKS</h5>
 <ul>
