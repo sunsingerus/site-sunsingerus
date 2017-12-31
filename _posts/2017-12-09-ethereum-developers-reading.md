@@ -9,17 +9,13 @@ permalink: >
 published: true
 post_date: 2017-12-09 14:55:50
 ---
+<h5>Reading</h5>
 <ul>
- 	<li>Full Stack Hello World Voting Ethereum Dapp Tutorial:</li>
-</ul>
+ 	<li>Full Stack Hello World Voting Ethereum Dapp Tutorial:
 <a href="https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2" target="_blank" rel="noopener">Part 1</a>
-
 <a href="https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-2-30b3d335aa1f" target="_blank" rel="noopener">Part 2</a>
-
 <a href="https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-3-331c2712c9df" target="_blank" rel="noopener">Part 3</a>
-
-<a href="https://github.com/maheshmurthy/ethereum_voting_dapp" target="_blank" rel="noopener">github repo</a>
-<ul>
+<a href="https://github.com/maheshmurthy/ethereum_voting_dapp" target="_blank" rel="noopener">github repo</a></li>
  	<li>Solidity By Example <a href="https://github.com/maheshmurthy/solidity-by-example" target="_blank" rel="noopener">repo</a></li>
  	<li>readme <a href="https://github.com/maheshmurthy/eth-dev-reading-list" target="_blank" rel="noopener">repo</a></li>
  	<li><a href="https://dappsforbeginners.wordpress.com/" target="_blank" rel="noopener">dapps for Beginners</a></li>
@@ -34,35 +30,28 @@ post_date: 2017-12-09 14:55:50
  	<li><a href="https://monax.io/docs/solidity/">monax</a></li>
  	<li><a href="https://medium.com/loom-network/how-to-code-your-own-cryptokitties-style-game-on-ethereum-7c8ac86a4eb3">How to code your own CryptoKitties</a></li>
 </ul>
-Repos and Software Collections
+<h5>Repos and Software Collections</h5>
 <ul>
  	<li><a href="https://github.com/OpenZeppelin/zeppelin-solidity">https://github.com/OpenZeppelin/zeppelin-solidity</a></li>
  	<li><a href="https://github.com/ConsenSys/Tokens">https://github.com/ConsenSys/Tokens</a></li>
  	<li><a href="https://github.com/ConsenSys/smart-contract-best-practices">https://github.com/ConsenSys/smart-contract-best-practices</a></li>
  	<li><a href="https://github.com/ConsenSys/Token-Factory">https://github.com/ConsenSys/Token-Factory</a></li>
  	<li><a href="https://github.com/ConsenSys/simple-token-sale">https://github.com/ConsenSys/simple-token-sale</a></li>
- 	<li><a href="https://github.com/Giveth/minime"></a>https://github.com/Giveth/minime</li>
+ 	<li>https://github.com/Giveth/minime</li>
  	<li><a href="https://github.com/ahoolee/smartcontracts">https://github.com/ahoolee/smartcontracts</a></li>
-
 </ul>
-FRAMEWORKS
+<h5>FRAMEWORKS</h5>
 <ul>
  	<li><a href="http://truffleframework.com/tutorials/pet-shop" target="_blank" rel="noopener">Truffle</a></li>
  	<li><a href="http://web3js.readthedocs.io/en/1.0/index.html#" target="_blank" rel="noopener">web3.js</a></li>
  	<li><a href="https://github.com/ethereum/wiki/wiki/JavaScript-API#web3js-api-reference" target="_blank" rel="noopener">reference</a></li>
  	<li><a href="https://github.com/ethereum/web3.js/tree/master/example" target="_blank" rel="noopener">web3.js examples</a></li>
 </ul>
-TOOLS
+<h5>TOOLS</h5>
 <ul>
  	<li><a href="https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console" target="_blank" rel="noopener">geth</a></li>
 </ul>
-ICOs
+<h5>ICOs</h5>
 <ul>
  	<li><a href="https://xwin.io/en">https://xwin.io/en</a></li>
- 	<li></li>
 </ul>
-&nbsp;
-
-&nbsp;
-
-&nbsp;
