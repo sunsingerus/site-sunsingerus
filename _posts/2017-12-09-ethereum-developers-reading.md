@@ -13,11 +13,11 @@ post_date: 2017-12-09 14:55:50
 <ul>
  	<li>Solidity Tutorial <a href="https://github.com/willitscale/learning-solidity">https://github.com/willitscale/learning-solidity</a></li>
  	<li>Solidity Cheat-Sheet<a href="https://github.com/manojpramesh/solidity-cheatsheet">https://github.com/manojpramesh/solidity-cheatsheet</a></li>
-<li>Iterable Mapping<br />
-<a href="https://github.com/poperechnyi1/iterable-Mapping-ERC20">https://github.com/poperechnyi1/iterable-Mapping-ERC20</a><br />
-<a href="https://github.com/poperechnyi1/iterableExample">https://github.com/poperechnyi1/iterableExample</a>
-</li>
-<li><a href="https://github.com/Modular-Network/ethereum-libraries">https://github.com/Modular-Network/ethereum-libraries</a></li>
+ 	<li>Iterable Mapping
+<a href="https://github.com/poperechnyi1/iterable-Mapping-ERC20">https://github.com/poperechnyi1/iterable-Mapping-ERC20</a>
+<a href="https://github.com/poperechnyi1/iterableExample">https://github.com/poperechnyi1/iterableExample</a></li>
+ 	<li><a href="https://github.com/Modular-Network/ethereum-libraries">https://github.com/Modular-Network/ethereum-libraries</a></li>
+<li><a href="https://github.com/Modular-Network/ethereum-contracts">https://github.com/Modular-Network/ethereum-contracts</a></li>
  	<li>Full Stack Hello World Voting Ethereum Dapp Tutorial:
 <a href="https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2" target="_blank" rel="noopener">Part 1</a>
 <a href="https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-2-30b3d335aa1f" target="_blank" rel="noopener">Part 2</a>
@@ -94,7 +94,7 @@ post_date: 2017-12-09 14:55:50
 </ul>
 <h5>Technologies</h5>
 <ul>
- 	<li style="list-style-type: none">
+ 	<li style="list-style-type: none;">
 <ul>
  	<li><a href="https://www.hyperledger.org/">https://www.hyperledger.org/</a></li>
  	<li><a href="https://polkadot.io/">https://polkadot.io/</a></li>
