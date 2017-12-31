@@ -54,6 +54,7 @@ post_date: 2017-12-09 14:55:50
  	<li>Random <a href="https://github.com/axiomzen/eth-random">https://github.com/axiomzen/eth-random</a></li>
  	<li><a href="https://github.com/postables/Postables-Solidity-Modules">https://github.com/postables/Postables-Solidity-Modules</a></li>
  	<li>Various Tokens collection<a href="https://github.com/bokkypoobah/Tokens">https://github.com/bokkypoobah/Tokens</a></li>
+<li><a href="https://github.com/poanetwork/ico-wizard">https://github.com/poanetwork/ico-wizard</a></li>
 </ul>
 </li>
 </ul>
@@ -71,6 +72,7 @@ post_date: 2017-12-09 14:55:50
 <h5>ICOs</h5>
 <ul>
  	<li><a href="https://xwin.io/en">https://xwin.io/en</a></li>
+<li><a href="https://github.com/poanetwork/ico-wizard">https://github.com/poanetwork/ico-wizard</a></li>
 </ul>
 <h5>News List</h5>
 <ul>
