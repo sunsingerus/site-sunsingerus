@@ -34,7 +34,7 @@ post_date: 2017-12-09 14:55:50
 <ul>
  	<li style="list-style-type: none;">
 <ul>
- 	<li style="list-style-type: none">
+ 	<li style="list-style-type: none;">
 <ul>
  	<li><a href="https://github.com/OpenZeppelin/zeppelin-solidity">https://github.com/OpenZeppelin/zeppelin-solidity</a></li>
  	<li><a href="https://github.com/ConsenSys/Tokens">https://github.com/ConsenSys/Tokens</a></li>
@@ -48,9 +48,10 @@ post_date: 2017-12-09 14:55:50
  	<li><a href="https://github.com/7flash/ico-contracts">https://github.com/7flash/ico-contracts</a></li>
  	<li><a href="https://github.com/masonicGIT/ico-whitepapers">https://github.com/masonicGIT/ico-whitepapers</a></li>
  	<li><a href="https://github.com/TokenMarketNet/ico">https://github.com/TokenMarketNet/ico</a></li>
-<li>ERC721 token <a href="https://github.com/m0t0k1ch1/ERC721-token-sample">https://github.com/m0t0k1ch1/ERC721-token-sample</a></li>
-<li>ERC721 token <a href="https://github.com/dharmaprotocol/NonFungibleToken">https://github.com/dharmaprotocol/NonFungibleToken</a></li>
-<li>ERC721 token <a href="https://github.com/7flash/NFT">https://github.com/7flash/NFT</a></li>
+ 	<li>ERC721 token <a href="https://github.com/m0t0k1ch1/ERC721-token-sample">https://github.com/m0t0k1ch1/ERC721-token-sample</a></li>
+ 	<li>ERC721 token <a href="https://github.com/dharmaprotocol/NonFungibleToken">https://github.com/dharmaprotocol/NonFungibleToken</a></li>
+ 	<li>ERC721 token <a href="https://github.com/7flash/NFT">https://github.com/7flash/NFT</a></li>
+<li><a href="https://github.com/ImFeelingDucky/NonFungibleToken">https://github.com/ImFeelingDucky/NonFungibleToken</a></li>
 </ul>
 </li>
 </ul>
