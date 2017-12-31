@@ -11,18 +11,18 @@ post_date: 2017-12-09 14:55:50
 ---
 <h5>Standards</h5>
 <ul>
-<li>ERC721 - <a href="https://github.com/ethereum/eips/issues/721">https://github.com/ethereum/eips/issues/721</a></li>
+ 	<li>ERC721 - <a href="https://github.com/ethereum/eips/issues/721" target="_blank" rel="noopener">https://github.com/ethereum/eips/issues/721</a></li>
 </ul>
 <h5>Reading</h5>
 <ul>
- 	<li>Solidity Tutorial <a href="https://github.com/willitscale/learning-solidity">https://github.com/willitscale/learning-solidity</a></li>
- 	<li>Solidity Cheat-Sheet<a href="https://github.com/manojpramesh/solidity-cheatsheet">https://github.com/manojpramesh/solidity-cheatsheet</a></li>
+ 	<li>Solidity Tutorial <a href="https://github.com/willitscale/learning-solidity" target="_blank" rel="noopener">https://github.com/willitscale/learning-solidity</a></li>
+ 	<li>Solidity Cheat-Sheet<a href="https://github.com/manojpramesh/solidity-cheatsheet" target="_blank" rel="noopener">https://github.com/manojpramesh/solidity-cheatsheet</a></li>
  	<li>Iterable Mapping
-<a href="https://github.com/poperechnyi1/iterable-Mapping-ERC20">https://github.com/poperechnyi1/iterable-Mapping-ERC20</a>
-<a href="https://github.com/poperechnyi1/iterableExample">https://github.com/poperechnyi1/iterableExample</a></li>
- 	<li><a href="https://github.com/Modular-Network/ethereum-libraries">https://github.com/Modular-Network/ethereum-libraries</a></li>
- 	<li><a href="https://github.com/Modular-Network/ethereum-contracts">https://github.com/Modular-Network/ethereum-contracts</a></li>
- 	<li>Solidity Workshop - <a href="https://github.com/androlo/solidity-workshop">https://github.com/androlo/solidity-workshop</a></li>
+<a href="https://github.com/poperechnyi1/iterable-Mapping-ERC20" target="_blank" rel="noopener">https://github.com/poperechnyi1/iterable-Mapping-ERC20</a>
+<a href="https://github.com/poperechnyi1/iterableExample" target="_blank" rel="noopener">https://github.com/poperechnyi1/iterableExample</a></li>
+ 	<li><a href="https://github.com/Modular-Network/ethereum-libraries" target="_blank" rel="noopener">https://github.com/Modular-Network/ethereum-libraries</a></li>
+ 	<li><a href="https://github.com/Modular-Network/ethereum-contracts" target="_blank" rel="noopener">https://github.com/Modular-Network/ethereum-contracts</a></li>
+ 	<li>Solidity Workshop - <a href="https://github.com/androlo/solidity-workshop" target="_blank" rel="noopener">https://github.com/androlo/solidity-workshop</a></li>
  	<li>Full Stack Hello World Voting Ethereum Dapp Tutorial:
 <a href="https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2" target="_blank" rel="noopener">Part 1</a>
 <a href="https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-2-30b3d335aa1f" target="_blank" rel="noopener">Part 2</a>
@@ -34,17 +34,15 @@ post_date: 2017-12-09 14:55:50
  	<li><a href="https://habrahabr.ru/post/327236/" target="_blank" rel="noopener">Dive into Ethereum</a></li>
  	<li><a href="https://habrahabr.ru/post/312008/" target="_blank" rel="noopener">Пишем умный контракт на Solidity.</a></li>
  	<li>Погружение в разработку на Ethereum: <a href="https://habrahabr.ru/post/336132/" target="_blank" rel="noopener">Часть 1,</a> <a href="https://habrahabr.ru/post/336770/" target="_blank" rel="noopener">Часть 2, </a><a href="https://habrahabr.ru/post/339080/" target="_blank" rel="noopener">Часть 3</a></li>
- 	<li><a href="http://inaword.ru/smart-kontrakty/">http://inaword.ru/smart-kontrakty/</a></li>
+ 	<li><a href="http://inaword.ru/smart-kontrakty/" target="_blank" rel="noopener">http://inaword.ru/smart-kontrakty/</a></li>
  	<li><a href="https://jacksonng.org/Go-Dutch-Dapp" target="_blank" rel="noopener">Dapp to capture supper expenses</a></li>
  	<li><a href="https://github.com/ethereum/wiki/wiki/Useful-%C3%90app-Patterns" target="_blank" rel="noopener">Useful Ðapp Patterns</a></li>
- 	<li><a href="https://github.com/ethereum/go-ethereum/wiki/Managing-your-accounts">managing your accounts</a></li>
- 	<li><a href="https://github.com/ethereum/go-ethereum/wiki/Contracts-and-Transactions">Contracts and Transactions</a></li>
- 	<li><a href="https://monax.io/docs/solidity/">monax</a></li>
- 	<li><a href="https://medium.com/loom-network/how-to-code-your-own-cryptokitties-style-game-on-ethereum-7c8ac86a4eb3">How to code your own CryptoKitties</a></li>
+ 	<li><a href="https://github.com/ethereum/go-ethereum/wiki/Managing-your-accounts" target="_blank" rel="noopener">managing your accounts</a></li>
+ 	<li><a href="https://github.com/ethereum/go-ethereum/wiki/Contracts-and-Transactions" target="_blank" rel="noopener">Contracts and Transactions</a></li>
+ 	<li><a href="https://monax.io/docs/solidity/" target="_blank" rel="noopener">monax</a></li>
+ 	<li><a href="https://medium.com/loom-network/how-to-code-your-own-cryptokitties-style-game-on-ethereum-7c8ac86a4eb3" target="_blank" rel="noopener">How to code your own CryptoKitties</a></li>
 </ul>
 <h5>Repos and Software Collections</h5>
-<ul>
- 	<li style="list-style-type: none;">
 <ul>
  	<li><a href="https://github.com/OpenZeppelin/zeppelin-solidity">https://github.com/OpenZeppelin/zeppelin-solidity</a></li>
  	<li><a href="https://github.com/ConsenSys/Tokens">https://github.com/ConsenSys/Tokens</a></li>
@@ -67,8 +65,6 @@ post_date: 2017-12-09 14:55:50
  	<li>Various Tokens collection<a href="https://github.com/bokkypoobah/Tokens">https://github.com/bokkypoobah/Tokens</a></li>
  	<li><a href="https://github.com/poanetwork/ico-wizard">https://github.com/poanetwork/ico-wizard</a></li>
 </ul>
-</li>
-</ul>
 <h5>FRAMEWORKS</h5>
 <ul>
  	<li><a href="http://truffleframework.com/tutorials/pet-shop" target="_blank" rel="noopener">Truffle</a></li>
@@ -82,8 +78,8 @@ post_date: 2017-12-09 14:55:50
 </ul>
 <h5>ICOs</h5>
 <ul>
- 	<li><a href="https://xwin.io/en">https://xwin.io/en</a></li>
- 	<li><a href="https://github.com/poanetwork/ico-wizard">https://github.com/poanetwork/ico-wizard</a></li>
+ 	<li><a href="https://xwin.io/en" target="_blank" rel="noopener">https://xwin.io/en</a></li>
+ 	<li><a href="https://github.com/poanetwork/ico-wizard" target="_blank" rel="noopener">https://github.com/poanetwork/ico-wizard</a></li>
 </ul>
 <h5>News List</h5>
 <ul>
