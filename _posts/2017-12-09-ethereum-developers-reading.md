@@ -76,10 +76,22 @@ post_date: 2017-12-09 14:55:50
 <ul>
  	<li><a href="https://xwin.io/en">https://xwin.io/en</a></li>
 </ul>
-
 <h5>News List</h5>
 <ul>
-<li><a href="https://dappdaily.com/">https://dappdaily.com/</a></li>
-<li><a href="http://www.weekinethereum.com/">http://www.weekinethereum.com/</a></li>
-<li><a href="https://blog.cyber.fund/">https://blog.cyber.fund/</a></li>
+ 	<li><a href="https://dappdaily.com/">https://dappdaily.com/</a></li>
+ 	<li><a href="http://www.weekinethereum.com/">http://www.weekinethereum.com/</a></li>
+ 	<li><a href="https://blog.cyber.fund/">https://blog.cyber.fund/</a></li>
+</ul>
+
+<h5>Languages</h5>
+<ul>
+<li><a href="https://ethereum.org/">Solidity</a></li>
+<li><a href="https://eos.io/">WebAssembly</a></li>
+<li><a href="http://www.rsk.co/ ">http://www.rsk.co/ </a></li>
+</ul>
+
+<h5>Technologies</h5>
+<ul>
+<li><a href="https://www.hyperledger.org/">https://www.hyperledger.org/</a></li>
+<li><a href="https://polkadot.io/">https://polkadot.io/</a></li>
 </ul>
