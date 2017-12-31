@@ -11,6 +11,7 @@ post_date: 2017-12-09 14:55:50
 ---
 <h5>Reading</h5>
 <ul>
+ 	<li>Solidity Tutorial <a href="https://github.com/willitscale/learning-solidity">https://github.com/willitscale/learning-solidity</a></li>
  	<li>Full Stack Hello World Voting Ethereum Dapp Tutorial:
 <a href="https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2" target="_blank" rel="noopener">Part 1</a>
 <a href="https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-2-30b3d335aa1f" target="_blank" rel="noopener">Part 2</a>
@@ -53,8 +54,8 @@ post_date: 2017-12-09 14:55:50
  	<li>ERC721 token <a href="https://github.com/7flash/NFT">https://github.com/7flash/NFT</a></li>
  	<li><a href="https://github.com/ImFeelingDucky/NonFungibleToken">https://github.com/ImFeelingDucky/NonFungibleToken</a></li>
  	<li>Random <a href="https://github.com/axiomzen/eth-random">https://github.com/axiomzen/eth-random</a></li>
-<li><a href="https://github.com/postables/Postables-Solidity-Modules">https://github.com/postables/Postables-Solidity-Modules</a></li>
-<li>Various Tokens collection<a href="https://github.com/bokkypoobah/Tokens">https://github.com/bokkypoobah/Tokens</a></li>
+ 	<li><a href="https://github.com/postables/Postables-Solidity-Modules">https://github.com/postables/Postables-Solidity-Modules</a></li>
+ 	<li>Various Tokens collection<a href="https://github.com/bokkypoobah/Tokens">https://github.com/bokkypoobah/Tokens</a></li>
 </ul>
 </li>
 </ul>
@@ -74,4 +75,11 @@ post_date: 2017-12-09 14:55:50
 <h5>ICOs</h5>
 <ul>
  	<li><a href="https://xwin.io/en">https://xwin.io/en</a></li>
+</ul>
+
+<h5>News List</h5>
+<ul>
+<li><a href="https://dappdaily.com/">https://dappdaily.com/</a></li>
+<li><a href="http://www.weekinethereum.com/">http://www.weekinethereum.com/</a></li>
+<li><a href="https://blog.cyber.fund/">https://blog.cyber.fund/</a></li>
 </ul>
