@@ -18,6 +18,7 @@ post_date: 2017-12-09 14:55:50
 <a href="https://github.com/poperechnyi1/iterableExample">https://github.com/poperechnyi1/iterableExample</a></li>
  	<li><a href="https://github.com/Modular-Network/ethereum-libraries">https://github.com/Modular-Network/ethereum-libraries</a></li>
 <li><a href="https://github.com/Modular-Network/ethereum-contracts">https://github.com/Modular-Network/ethereum-contracts</a></li>
+<li>Solidity Workshop - <a href="https://github.com/androlo/solidity-workshop">https://github.com/androlo/solidity-workshop</a></li>
  	<li>Full Stack Hello World Voting Ethereum Dapp Tutorial:
 <a href="https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2" target="_blank" rel="noopener">Part 1</a>
 <a href="https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-2-30b3d335aa1f" target="_blank" rel="noopener">Part 2</a>
