@@ -40,7 +40,8 @@ post_date: 2017-12-09 14:55:50
  	<li>https://github.com/Giveth/minime</li>
  	<li><a href="https://github.com/ahoolee/smartcontracts">https://github.com/ahoolee/smartcontracts</a></li>
  	<li><a href="https://github.com/rhlsthrm/eth-with-friends">https://github.com/rhlsthrm/eth-with-friends</a></li>
-<li><a href="https://github.com/rhlsthrm/presale-fund-collector">https://github.com/rhlsthrm/presale-fund-collector</a></li>
+ 	<li><a href="https://github.com/rhlsthrm/presale-fund-collector">https://github.com/rhlsthrm/presale-fund-collector</a></li>
+ 	<li><a href="https://github.com/7flash/ico-contracts">https://github.com/7flash/ico-contracts</a></li>
 </ul>
 <h5>FRAMEWORKS</h5>
 <ul>
