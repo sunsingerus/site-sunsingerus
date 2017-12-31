@@ -33,9 +33,7 @@ post_date: 2017-12-09 14:55:50
 </ul>
 <h5>Repos and Software Collections</h5>
 <ul>
- 	<li style="list-style-type: none;">
-<ul>
- 	<li style="list-style-type: none;">
+ 	<li style="list-style-type: none">
 <ul>
  	<li><a href="https://github.com/OpenZeppelin/zeppelin-solidity">https://github.com/OpenZeppelin/zeppelin-solidity</a></li>
  	<li><a href="https://github.com/ConsenSys/Tokens">https://github.com/ConsenSys/Tokens</a></li>
@@ -56,8 +54,6 @@ post_date: 2017-12-09 14:55:50
  	<li>Random <a href="https://github.com/axiomzen/eth-random">https://github.com/axiomzen/eth-random</a></li>
  	<li><a href="https://github.com/postables/Postables-Solidity-Modules">https://github.com/postables/Postables-Solidity-Modules</a></li>
  	<li>Various Tokens collection<a href="https://github.com/bokkypoobah/Tokens">https://github.com/bokkypoobah/Tokens</a></li>
-</ul>
-</li>
 </ul>
 </li>
 </ul>
@@ -82,16 +78,14 @@ post_date: 2017-12-09 14:55:50
  	<li><a href="http://www.weekinethereum.com/">http://www.weekinethereum.com/</a></li>
  	<li><a href="https://blog.cyber.fund/">https://blog.cyber.fund/</a></li>
 </ul>
-
 <h5>Languages</h5>
 <ul>
-<li><a href="https://ethereum.org/">Solidity</a></li>
-<li><a href="https://eos.io/">WebAssembly</a></li>
-<li><a href="http://www.rsk.co/ ">http://www.rsk.co/ </a></li>
+ 	<li><a href="https://ethereum.org/">Solidity</a></li>
+ 	<li><a href="https://eos.io/">WebAssembly</a></li>
+ 	<li><a href="http://www.rsk.co/ ">http://www.rsk.co/ </a></li>
 </ul>
-
 <h5>Technologies</h5>
 <ul>
-<li><a href="https://www.hyperledger.org/">https://www.hyperledger.org/</a></li>
-<li><a href="https://polkadot.io/">https://polkadot.io/</a></li>
+ 	<li><a href="https://www.hyperledger.org/">https://www.hyperledger.org/</a></li>
+ 	<li><a href="https://polkadot.io/">https://polkadot.io/</a></li>
 </ul>
