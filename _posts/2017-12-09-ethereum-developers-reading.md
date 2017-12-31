@@ -9,6 +9,10 @@ permalink: >
 published: true
 post_date: 2017-12-09 14:55:50
 ---
+<h5>Standards</h5>
+<ul>
+<li>ERC721 - <a href="https://github.com/ethereum/eips/issues/721">https://github.com/ethereum/eips/issues/721</a></li>
+</ul>
 <h5>Reading</h5>
 <ul>
  	<li>Solidity Tutorial <a href="https://github.com/willitscale/learning-solidity">https://github.com/willitscale/learning-solidity</a></li>
@@ -17,8 +21,8 @@ post_date: 2017-12-09 14:55:50
 <a href="https://github.com/poperechnyi1/iterable-Mapping-ERC20">https://github.com/poperechnyi1/iterable-Mapping-ERC20</a>
 <a href="https://github.com/poperechnyi1/iterableExample">https://github.com/poperechnyi1/iterableExample</a></li>
  	<li><a href="https://github.com/Modular-Network/ethereum-libraries">https://github.com/Modular-Network/ethereum-libraries</a></li>
-<li><a href="https://github.com/Modular-Network/ethereum-contracts">https://github.com/Modular-Network/ethereum-contracts</a></li>
-<li>Solidity Workshop - <a href="https://github.com/androlo/solidity-workshop">https://github.com/androlo/solidity-workshop</a></li>
+ 	<li><a href="https://github.com/Modular-Network/ethereum-contracts">https://github.com/Modular-Network/ethereum-contracts</a></li>
+ 	<li>Solidity Workshop - <a href="https://github.com/androlo/solidity-workshop">https://github.com/androlo/solidity-workshop</a></li>
  	<li>Full Stack Hello World Voting Ethereum Dapp Tutorial:
 <a href="https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2" target="_blank" rel="noopener">Part 1</a>
 <a href="https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-2-30b3d335aa1f" target="_blank" rel="noopener">Part 2</a>
