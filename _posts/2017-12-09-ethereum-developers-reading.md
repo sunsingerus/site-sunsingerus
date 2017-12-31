@@ -39,6 +39,7 @@ post_date: 2017-12-09 14:55:50
  	<li><a href="https://github.com/ConsenSys/simple-token-sale">https://github.com/ConsenSys/simple-token-sale</a></li>
  	<li>https://github.com/Giveth/minime</li>
  	<li><a href="https://github.com/ahoolee/smartcontracts">https://github.com/ahoolee/smartcontracts</a></li>
+<li><a href="https://github.com/rhlsthrm/eth-with-friends">https://github.com/rhlsthrm/eth-with-friends</a></li>
 </ul>
 <h5>FRAMEWORKS</h5>
 <ul>
