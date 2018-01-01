@@ -41,3 +41,22 @@ Login with new password
 <pre>
 mysql -uroot -pqwerty
 </pre>
+
+You may encounter the following error
+<pre>
+ERROR 1820 (HY000): You must reset your password using ALTER USER statement before executing this statement. 
+</pre>
+
+Just setup a new decent password asa
+<pre>
+SET PASSWORD = PASSWORD('qwerty');
+</pre>
+
+You may encounter the following error
+<pre>
+ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
+</pre>
+in case provieded password is too simple. 
+<pre>
+SET PASSWORD = PASSWORD('Qwerty1#');
+</pre>
