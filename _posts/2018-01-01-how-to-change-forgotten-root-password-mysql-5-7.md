@@ -15,7 +15,7 @@ Stop <code>mysqld</code>
 <pre>
 sudo systemctl stop mysqld
 </pre>
-Run <code>mysqld</code> with <code>--skip-grant-tables</code> options
+Run <code>mysqld</code> with <code>--skip-grant-tables</code> option
 <pre>
 sudo -u mysql /usr/sbin/mysqld --daemonize --pid-file=/var/run/mysqld/mysqld.pid --skip-grant-tables
 </pre>
