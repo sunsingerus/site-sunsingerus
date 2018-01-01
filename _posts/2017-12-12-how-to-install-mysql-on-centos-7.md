@@ -11,6 +11,11 @@ post_date: 2017-12-12 11:45:00
 ---
 <pre class="prettyprint">sudo yum install -y https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm
 </pre>
+<pre>
+sudo yum install -y mysql-community-devel mysql-community-server
+sudo systemctl start mysqld
+sudo mysql_secure_installation
+</pre>
 <pre class="prettyprint">[user@localhost ~]$ yum list 'mysql-community*'
 Installed Packages
 mysql-community-common.x86_64          5.7.20-1.el7 @mysql57-community
@@ -25,6 +30,4 @@ mysql-community-embedded-devel.x86_64  5.7.20-1.el7 mysql57-community
 mysql-community-release.noarch         el7-7        mysql57-community
 mysql-community-server.x86_64          5.7.20-1.el7 mysql57-community
 mysql-community-test.x86_64            5.7.20-1.el7 mysql57-community
-</pre>
-<pre class="prettyprint">sudo yum install -y mysql-community-devel
 </pre>
