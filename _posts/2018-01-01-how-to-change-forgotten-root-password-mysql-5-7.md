@@ -19,7 +19,7 @@ Run <code>mysqld</code> with <code>--skip-grant-tables</code> option
 <pre>
 sudo -u mysql /usr/sbin/mysqld --daemonize --pid-file=/var/run/mysqld/mysqld.pid --skip-grant-tables
 </pre>
-Now we can run <code>mysql</code> client without password. Update <code>root</code> password
+Now we can run <code>mysql</code> client without password. Start <code>mysql</code> client and update <code>root</code> password
 
 <pre>
 UPDATE mysql.user SET authentication_string=PASSWORD('qwerty') WHERE user='root';
