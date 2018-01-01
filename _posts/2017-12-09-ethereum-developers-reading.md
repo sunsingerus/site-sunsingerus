@@ -95,10 +95,10 @@ post_date: 2017-12-09 14:55:50
 </ul>
 <h5>Technologies</h5>
 <ul>
- 	<li style="list-style-type: none;">
-<ul>
  	<li><a href="https://www.hyperledger.org/">https://www.hyperledger.org/</a></li>
  	<li><a href="https://polkadot.io/">https://polkadot.io/</a></li>
 </ul>
-</li>
+<h5>Jobs</h5>
+<ul>
+<li><a href="https://jobs.ethercasts.com/">https://jobs.ethercasts.com/</a></li>
 </ul>
