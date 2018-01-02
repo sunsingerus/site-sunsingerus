@@ -21,3 +21,7 @@ Install
 <pre>
 sudo yum install -y 'clickhouse*'
 </pre>
+Start
+<pre>
+ sudo /etc/init.d/clickhouse-server restart
+</pre>
