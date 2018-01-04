@@ -11,9 +11,6 @@ permalink: >
 published: true
 post_date: 2018-01-04 21:05:52
 ---
-<!--more-->
-
-
 Let's take a look on examples:
 <h5>Positional agrs</h5>
 <pre>def positional(*args):
