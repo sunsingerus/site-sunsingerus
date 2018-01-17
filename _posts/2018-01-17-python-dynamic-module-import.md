@@ -36,7 +36,7 @@ def class_from_file(file_name, class_name):
 Create object
 <pre>
 _class = class_from_file(file_name, class_name)
-instance=_class()
+instance = _class()
 </pre>
 
 You may encounter the following error on the way:
