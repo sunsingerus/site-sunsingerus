@@ -44,6 +44,7 @@ You may encounter the following error on the way:
 SystemError: Parent module '' not loaded, cannot perform relative import
 </pre>
 Most likely your dynamic module tries to import other module (possibly from the project), but relative or absolute path fails. The most straightforward way is to include target folders into <strong>sys.path</strong>
+In case we'd like to import any class from files inside <code>converter</code> folder into our dynamically imported module:
 <pre>
 # append 'converter' folder into sys.path
 # this helps to load custom modules
