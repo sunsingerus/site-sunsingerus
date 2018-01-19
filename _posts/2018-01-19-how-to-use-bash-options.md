@@ -85,3 +85,33 @@ and run it
 1. exec cmd 3
 1. exec cmd 4
 </pre>
+
+<h5>set -e</h5>
+According to the doc set -e “Exit immediately if a command exits with a non-zero status.”
+Let’s take a look on example:
+<code>1.sh</code>
+<pre>
+#!/bin/bash
+
+set -e
+
+echo "1. exec cmd 1"
+echo "1. exec cmd 2"
+echo "1. calling 2.sh"
+./2.sh
+echo "1. got exit code $? from 2.sh"
+echo "1. exec cmd 3"
+exit 0
+
+</pre>
+<code>2.sh</code> is the same as before
+Run <code>1.sh</code>
+<pre>
+1. exec cmd 1
+1. exec cmd 2
+1. calling 2.sh
+2 exec cmd 1
+2 exec cmd 2
+2 exit code 1
+</pre>
+As we can see, no commands after the first with non-zero exit code.
