@@ -115,3 +115,36 @@ Run <code>1.sh</code>
 2 exit code 1
 </pre>
 As we can see, no commands after the first with non-zero exit code.
+
+<h5>set -e combined with a trap call</h5>
+Modify <code>1.sh</code>
+<pre>
+#!/bin/bash
+
+set -e
+
+trap on_err ERR
+function on_err()
+{
+	echo "1. trap error on line $(caller)" >&2
+}
+
+echo "1. exec cmd 1"
+echo "1. exec cmd 2"
+echo "1. calling 2.sh"
+./2.sh
+echo "1. got exit code $? from 2.sh"
+echo "1. exec cmd 3"
+exit 0
+</pre>
+And run it
+<pre>
+1. exec cmd 1
+1. exec cmd 2
+1. calling 2.sh
+2 exec cmd 1
+2 exec cmd 2
+2 exit code 1
+1. trap error on line 14 ./1.sh
+</pre>
+Observe <code>1. trap error on line 14 ./1.sh</code> Can be of a great help for debug.
