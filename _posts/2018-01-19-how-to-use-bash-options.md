@@ -150,7 +150,7 @@ And run it
 Observe <code>1. trap error on line 14 ./1.sh</code> which points directly to the line and file where non-zero exit code detected.
 Can be of a great help for debug.
 
-<h5>Skip some commands</h5>
+<h5>Exclude command from exit code check</h5>
 <code>1.sh</code>
 <pre>
 #!/bin/bash
