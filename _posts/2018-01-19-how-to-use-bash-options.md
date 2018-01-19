@@ -149,3 +149,45 @@ And run it
 </pre>
 Observe <code>1. trap error on line 14 ./1.sh</code> which points directly to the line and file where non-zero exit code detected.
 Can be of a great help for debug.
+
+<h5>Skip some commands</h5>
+<code>1.sh</code>
+<pre>
+#!/bin/bash
+
+set -e
+
+trap on_err ERR
+function on_err()
+{
+        echo "1. trap error on line $(caller)" >&2
+}
+
+echo "1. exec cmd 1"
+echo "1. exec cmd 2"
+echo "1. calling 2.sh"
+set +e
+./2.sh
+echo "1. got exit code $? from 2.sh"
+set -e
+echo "1. exec cmd 3"
+./2.sh
+echo "1. exec cmd 4"
+exit 0
+</pre>
+As expected the first run of <code>2.sh</code> does not terminate <code>1.sh</code>, but the seconds call - terminates
+<pre>
+. exec cmd 1
+1. exec cmd 2
+1. calling 2.sh
+2 exec cmd 1
+2 exec cmd 2
+2 exit code 1
+1. trap error on line 15 ./1.sh
+1. got exit code 1 from 2.sh
+1. exec cmd 3
+2 exec cmd 1
+2 exec cmd 2
+2 exit code 1
+1. trap error on line 19 ./1.sh
+</pre>
