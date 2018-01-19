@@ -147,4 +147,5 @@ And run it
 2 exit code 1
 1. trap error on line 14 ./1.sh
 </pre>
-Observe <code>1. trap error on line 14 ./1.sh</code> Can be of a great help for debug.
+Observe <code>1. trap error on line 14 ./1.sh</code> which points directly to the line and file where non-zero exit code detected.
+Can be of a great help for debug.
