@@ -7,7 +7,7 @@ author: sunsingerus
 post_excerpt: ""
 layout: post
 permalink: >
-  http://sunsingerus.com/packaging-and-distributing-python-projects/
+  https://sunsingerus.com/packaging-and-distributing-python-projects/
 published: true
 post_date: 2017-12-27 10:52:19
 ---
@@ -106,7 +106,7 @@ And now we are ready to upload packages to <strong>pypi</strong>
 </pre>
 After that check package status on pypi.
 
-<img class="alignnone size-full wp-image-221" src="http://sunsingerus.com/wp-content/uploads/2017/12/pypi_package_page.png" alt="" width="600" height="650" />
+<img class="alignnone size-full wp-image-221" src="https://sunsingerus.com/wp-content/uploads/2017/12/pypi_package_page.png" alt="" width="600" height="650" />
 
 <h5>Installation</h5>
 Now we are ready to install the app from PyPi
