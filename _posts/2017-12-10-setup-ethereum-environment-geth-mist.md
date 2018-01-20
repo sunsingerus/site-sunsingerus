@@ -5,7 +5,7 @@ author: sunsingerus
 post_excerpt: ""
 layout: post
 permalink: >
-  http://sunsingerus.com/setup-ethereum-environment-geth-mist/
+  https://sunsingerus.com/setup-ethereum-environment-geth-mist/
 published: true
 post_date: 2017-12-10 16:42:43
 ---
@@ -36,7 +36,7 @@ cd eth-misc-scripts/
 ./mist-network-test.sh
 </pre>
 Mist screen while Ropsten network sync in progress
-<img class="alignnone size-full wp-image-28" src="http://sunsingerus.com/wp-content/uploads/2017/12/sync-in-progress-ropsten.png" alt="" width="1234" height="746" />
+<img class="alignnone size-full wp-image-28" src="https://sunsingerus.com/wp-content/uploads/2017/12/sync-in-progress-ropsten.png" alt="" width="1234" height="746" />
 
 The most interesting is Ropsten sync progress status - about 33% downloaded, 988802 blocks to go
-<img class="alignnone size-full wp-image-30" src="http://sunsingerus.com/wp-content/uploads/2017/12/sync-in-progress-ropsten-corner.png" alt="" width="400" height="170" />
+<img class="alignnone size-full wp-image-30" src="https://sunsingerus.com/wp-content/uploads/2017/12/sync-in-progress-ropsten-corner.png" alt="" width="400" height="170" />
