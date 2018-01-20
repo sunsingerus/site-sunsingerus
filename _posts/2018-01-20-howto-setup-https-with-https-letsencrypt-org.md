@@ -78,7 +78,7 @@ That's all. Exactly as the doc says "renew is suitable (and designed) for automa
 
 <h5>Automate Certificates Renewal</h5>
 
-Place renewal script into <core>/etc/cron.daily/</code> folder
+Place renewal script into <code>/etc/cron.daily/</code> folder
 <pre>
 #!/bin/sh
 /root/certbot-auto renew
