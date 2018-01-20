@@ -18,7 +18,7 @@ The best way to simplify and automate SSL certificates management is to use <a h
 
 Suppose we have NGINX running on CentOS or Ubuntu system. Let's automate certificates management with certbot.
 
-<strong>IMPORTANT</strong> Let's Encrypt issues certificates for 90 days, so certificate renewal procedure is mandatory. Also we'd like to automate it.
+<strong>IMPORTANT</strong> Let's Encrypt issues certificates with <strong>90 days</strong> valid period, so certificate renewal procedure is mandatory. Also we'd like to automate it.
 <h5>Certbot Installation</h5>
 Firts of all, let's install certbot
 
