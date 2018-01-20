@@ -52,7 +52,7 @@ Run
 ./certbot-auto --nginx
 </pre>
 Answer some tools asked by the tool. That's all. Really. Certificates obtained, NGINX configured.
-Certbot adds the folling lines into NGINX configuration
+Certbot adds the following lines into NGINX configuration
 <pre>
 listen 443 ssl; # managed by Certbot
 ssl_certificate /etc/letsencrypt/live/sunsingerus.com/fullchain.pem; # managed by Certbot
