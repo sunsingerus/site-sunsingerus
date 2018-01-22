@@ -22,7 +22,7 @@ function is_print_commands_enabled()
 if is_print_commands_enabled; then
         echo "set -x detected"
 else
-        echo "NO set -x detetced"
+        echo "NO set -x detected"
 fi
 </pre>
 
