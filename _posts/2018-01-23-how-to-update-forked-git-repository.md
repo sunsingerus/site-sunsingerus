@@ -12,7 +12,7 @@ post_date: 2018-01-23 10:07:49
 <h5>Introduction</h5>
 Imagine we have forked Git project and some time later a change was made by another developer into the root project. Our fork does not have that change and we'd like to obtain it.
 
-<h5>Add Remote Repo</h5>
+<h5>Add remote repo</h5>
 Add <a href="https://git-scm.com/docs/git-remote" rel="noopener" target="_blank">remote repository</a>, call it altinity in our case.
 <pre>
 git remote add altinity https://github.com/Altinity/clickhouse-rpm
@@ -37,7 +37,7 @@ git remote show altinity
     master pushes to master (local out of date)
 </pre>
 
-<h5>Fetch Remote</h5>
+<h5>Fetch remote</h5>
 Fetch all branches from remote repository
 <pre>
 git fetch altinity
