@@ -13,7 +13,7 @@ post_date: 2018-01-23 10:07:49
 Imagine we have forked Git project and some time later a change was made by another developer into the root project. Our fork does not have that change and we'd like to obtain it.
 
 <h5>Add remote repo</h5>
-Add <a href="https://git-scm.com/docs/git-remote" rel="noopener" target="_blank">remote repository</a>, call it altinity in our case.
+Add <a href="https://git-scm.com/docs/git-remote" rel="noopener" target="_blank">remote repository</a> into list of tracked repositories.
 <pre>
 git remote add altinity https://github.com/Altinity/clickhouse-rpm
 </pre>
