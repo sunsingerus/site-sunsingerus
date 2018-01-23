@@ -1,13 +1,13 @@
 ---
 ID: 9
 post_title: >
-  HowTo Setup HTTPS with
+  How To Setup HTTPS with
   https://letsencrypt.org/
 author: sunsingerus
 post_excerpt: ""
 layout: post
 permalink: >
-  https://sunsingerus.com/howto-setup-https-with-https-letsencrypt-org/
+  https://sunsingerus.com/how-to-setup-https-with-https-letsencrypt-org/
 published: true
 post_date: 2018-01-20 16:19:12
 ---
