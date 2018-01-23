@@ -50,6 +50,7 @@ From https://github.com/Altinity/clickhouse-rpm
  * [new branch]      master     -> altinity/master
 </pre>
 
+Now we have all data we wanted available. Next step would be merge remote changes into our local working copy.
 <h5>Merge remote changes into local repo</h5>
 Ensure we are on master branch in local repo
 <pre>
