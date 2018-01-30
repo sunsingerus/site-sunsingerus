@@ -57,7 +57,7 @@ select pointInEllipses(1.0, 1.0, 2.0, 2.0, 3.0, 3.0);
 
 <h5>pointInPolygon</h5>
 
-This <a href="https://github.com/yandex/ClickHouse/blob/288c6c8406fba0edc503630490364ab1c1f4036d/dbms/src/Functions/FunctionsGeo.cpp#L75" rel="noopener" target="_blank">function</a> checks whether specified point is inside specified (by vertexes coordinates) polygon.
+This <a href="https://github.com/yandex/ClickHouse/blob/288c6c8406fba0edc503630490364ab1c1f4036d/dbms/src/Functions/FunctionsGeo.cpp#L75" rel="noopener" target="_blank">function</a> checks whether specified point is inside specified (by vertexes) polygon.
 <pre>
 pointInPolygon((x, y),   [(x1, y1), (x2, y2), (x3, y3)...])
 </pre>
