@@ -11,9 +11,9 @@ post_date: 2018-01-30 20:54:23
 ---
 ClickHouse provides several geometry-related functions:
 <ul>
-<li>greatCircleDistance</li>
-<li>pointInEllipses</li>
-<li>pointInPolygon</li>
+<li><code>greatCircleDistance</code></li>
+<li><code>pointInEllipses</code></li>
+<li><code>pointInPolygon</code></li>
 </ul>
 However, there are (at least for now) no official docs available, so we need to take a look into sources.
 
