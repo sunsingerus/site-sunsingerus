@@ -37,7 +37,7 @@ Pay attention to parameters order - first comes longitude. Function call would b
 <pre>
 SELECT floor(greatCircleDistance(-0.12574, 51.50853, 2.34880, 48.85341)) AS distance;
 </pre>
-We have distance 343867 meters, which is about 344 km or 214 miles
+We have distance of 343867 meters, which is about 344 km or 214 miles
 
 <h5>pointInEllipses</h5>
 
