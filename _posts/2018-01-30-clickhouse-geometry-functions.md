@@ -50,7 +50,7 @@ The arguments must be arranged as follows: (x, y, x_0, y_0, a_0, b_0, ..., x_i, 
 Where <strong>X</strong> and <strong>Y</strong> are coordinates of the point to check and <strong>Xi</strong>, <strong>Yi</strong>, <strong>Ai</strong> and <strong>Bi</strong> are parameters of each ellipse as described in <a href="https://www.mathopenref.com/coordgeneralellipse.html" rel="noopener" target="_blank">general equation of an ellipse</a>.
 
 Let's check whether point (1,1) in inside ellipse with x=2 y=2 a=3 b=3
-Pay attention to parameters <strong>float</strong> numbers required.
+Pay attention to parameters - <strong>float</strong> numbers required.
 <pre>
 select pointInEllipses(1.0, 1.0, 2.0, 2.0, 3.0, 3.0);
 </pre>
