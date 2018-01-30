@@ -29,7 +29,7 @@ Latitude must be in [-90, 90], longitude must be [-180, 180]
 
 As as an example, let's calculate distance between London and Paris
 <table>
-<tr><td>City</td><td>Latitude</td><td>Longitude</td></tr>
+<tr><td><strong>City</strong></td><td><strong>Latitude</strong></td><td><strong>Longitude</strong></td></tr>
 <tr><td>London</td><td>51.50853</td><td>-0.12574</td></tr>
 <tr><td>Paris</td><td>48.85341</td><td>2.34880</td></tr>
 </table>
