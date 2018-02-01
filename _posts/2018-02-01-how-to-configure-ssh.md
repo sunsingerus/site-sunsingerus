@@ -59,6 +59,7 @@ Extended form - explicitly specify key file to copy
 ssh-copy-id -i $HOME/.ssh/id_rsa.pub USER@192.168.1.198
 </pre>
 
+Or we can copy key file manually and setup correct access privileges
 <pre>
 ssh user@192.168.74.142 'mkdir -p .ssh'
 cat ~/.ssh/id_rsa.pub | ssh user@192.168.74.142 'cat >> .ssh/authorized_keys'
