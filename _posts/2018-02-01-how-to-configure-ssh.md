@@ -73,17 +73,27 @@ Edit <code>/etc/ssh/sshd_config</code> file
 PasswordAuthentication no
 </pre>
 
-
+Allow ssh to use protocol version 2 and disallow older versions.
+<pre>
 Protocol 2
+</pre>
 
+Disallow root login
+<pre>
 PermitRootLogin no
+</pre>
 
-Port 2200
+Change port in also possible
+<pre>
+Port 3000
+</pre>
 
+In some cases we can even explicitly specify IP-addresses allowed to login
 <pre>
 AllowUsers = *@123.123.123.123
 </pre>
 
+After setup completed - just restart the service
 <pre>
 sudo service ssh restart
 </pre>
