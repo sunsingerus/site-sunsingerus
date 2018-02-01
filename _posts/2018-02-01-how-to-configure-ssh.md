@@ -88,7 +88,7 @@ Change port in also possible
 Port 3000
 </pre>
 
-In some cases we can even explicitly specify IP-addresses allowed to login
+We can even explicitly specify IP-addresses allowed to login. <strong>Use with caution!</strong>
 <pre>
 AllowUsers = *@123.123.123.123
 </pre>
