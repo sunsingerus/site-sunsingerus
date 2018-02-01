@@ -46,6 +46,15 @@ cat ~/.ssh/id_rsa.pub
 ssh-rsa AAAAB3Nz ... cut ...
 </pre>
 
+Now we need to copy public key to remote server. This can be done either by <code>ssh-copy-id</code> tool.
+Short form - just call it with remote server specified and it will copy <code>.ssh/id_rsa.pub</code> file
+<pre>
+ssh-copy-id 192.168.74.142
+</pre>
+<pre>
+INFO: Source of key(s) to be installed: "/home/user/.ssh/id_rsa.pub"
+</pre>
+Extended form - explicitly specify key file to copy
 <pre>
 ssh-copy-id -i $HOME/.ssh/id_rsa.pub USER@192.168.1.198
 </pre>
