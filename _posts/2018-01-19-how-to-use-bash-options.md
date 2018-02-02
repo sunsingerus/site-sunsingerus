@@ -5,7 +5,7 @@ author: sunsingerus
 post_excerpt: ""
 layout: post
 permalink: >
-  http://sunsingerus.com/how-to-use-bash-options/
+  https://sunsingerus.com/how-to-use-bash-options/
 published: true
 post_date: 2018-01-19 12:11:40
 ---
@@ -175,7 +175,7 @@ echo "1. exec cmd 3"
 echo "1. exec cmd 4"
 exit 0
 </pre>
-As expected the first run of <code>2.sh</code> does not terminate <code>1.sh</code>, but the seconds call - terminates
+As expected the first run of <code>2.sh</code> does not terminate <code>1.sh</code>, but the second call - terminates
 <pre>
 . exec cmd 1
 1. exec cmd 2
