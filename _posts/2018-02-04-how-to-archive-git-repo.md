@@ -43,7 +43,7 @@ git archive --format=tar.gz --prefix=v1.1/ HEAD > /tmp/2.tgz
 </pre>
 Archive content:
 <pre>
-v1.1
+v1.1/
   dict/
   src/
   LICENSE  
@@ -51,10 +51,11 @@ v1.1
   build.sh  
 </pre>
 
+We can specify output file name with extension, and git is clever enough to understand what archive format we'd like to have.
+<pre>
 git archive --prefix=v1.2/ -o /tmp/3.tar.gz HEAD
+</pre>
+Short <code>.tgz</code> form is o as well
+<pre>
 git archive --prefix=v1.2/ -o /tmp/3.tgz HEAD
-
-
-git archive -o latest.zip HEAD
-
-Create a Zip archive that contains the contents of the latest commit on the current branch. Note that the output format is inferred by the extension of the output file.
+</pre>
