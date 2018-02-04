@@ -55,7 +55,7 @@ We can specify output file name with extension, and git is clever enough to unde
 <pre>
 git archive --prefix=v1.2/ -o /tmp/3.tar.gz HEAD
 </pre>
-Short <code>.tgz</code> form is o as well
+Short <code>.tgz</code> form is fine as well
 <pre>
 git archive --prefix=v1.2/ -o /tmp/3.tgz HEAD
 </pre>
