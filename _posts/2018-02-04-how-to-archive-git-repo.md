@@ -10,7 +10,7 @@ published: true
 post_date: 2018-02-04 18:51:39
 ---
 <h5>Intro</h5>
-Suppose e have the following git repo
+Suppose we have the following git repo
 <pre>
 .git/
 dict/
@@ -22,7 +22,7 @@ build.sh
 and we need to have repo archived without git information.
 
 <h5>Archive</h5>
-Apply <code>git archive</code> command in order to archive latest commit on the current branch i.e. <code>HEAD</code>
+Apply <code>git archive</code> command. Archive latest commit on the current branch i.e. <code>HEAD</code>
 <pre>
 git archive --format=tar.gz HEAD > /tmp/head_no_prefix.tar.gz
 </pre>
