@@ -37,7 +37,7 @@ build.sh
 
 As we can see, archive contains repo without .git dir. 
 
-Sometimes we'd like to have archived repo inside a folder. This is convenient when archive is extracted and all files are located inside separate folder, not in current folder. In this case use <code>--prefix=folder/</code> option. <strong>IMPORTANT: / is important - in case it is omitted we'd have all file names prefixed with folder - not a directory</strong>
+Sometimes we'd like to have archived repo inside a folder. This is convenient when archive is extracted and all files are located inside separate folder, not in current folder. In this case use <code>--prefix=folder/</code> option. <strong>IMPORTANT: / is important - in case it is omitted we'd have all file names prefixed - but not located inside a directory. This is not what we'd like to have</strong>
 <pre>
 git archive --format=tar.gz --prefix=v1.1/ HEAD > /tmp/2.tgz
 </pre>
