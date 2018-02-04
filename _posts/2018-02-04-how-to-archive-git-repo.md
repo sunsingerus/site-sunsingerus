@@ -35,7 +35,9 @@ README.md
 build.sh  
 </pre>
 
-As we can see, archive contains repo withour .got dir. Sometimes we'd like to have repo inside a folder. In this case use <code>--prefix=folder/</code>. <strong>IMPORTANT: / is important - in case it is omitted we'd have all file names prefixed with folder - not a directory</strong>
+As we can see, archive contains repo without .git dir. 
+
+Sometimes we'd like to have repo inside a folder. In this case use <code>--prefix=folder/</code>. <strong>IMPORTANT: / is important - in case it is omitted we'd have all file names prefixed with folder - not a directory</strong>
 <pre>
 git archive --format=tar.gz --prefix=v1.1/ HEAD > /tmp/2.tgz
 </pre>
