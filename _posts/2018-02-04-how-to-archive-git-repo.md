@@ -24,7 +24,7 @@ and we need to have repo archived without git information.
 <h5>Archive</h5>
 Apply <code>git archive</code> command. Archive latest commit on the current branch i.e. <code>HEAD</code> as tar.gz
 <pre>
-git archive --format=tar.gz HEAD > /tmp/head_no_prefix.tar.gz
+git archive --format=tar.gz HEAD > /tmp/repo.tar.gz
 </pre>
 Archive content:
 <pre>
