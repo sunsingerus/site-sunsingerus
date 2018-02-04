@@ -22,7 +22,7 @@ build.sh
 and we need to have repo archived without git information.
 
 <h5>Archive</h5>
-Apply <code>git archive</code> command. Archive latest commit on the current branch i.e. <code>HEAD</code>
+Apply <code>git archive</code> command. Archive latest commit on the current branch i.e. <code>HEAD</code> as tar.gz
 <pre>
 git archive --format=tar.gz HEAD > /tmp/head_no_prefix.tar.gz
 </pre>
@@ -35,7 +35,11 @@ README.md
 build.sh  
 </pre>
 
+As we can see, archive contains repo withour .got dir. Sometimes we'd like to have repo inside a folder. In this case use <code>--prefix=folder/</code>. <strong>IMPORTANT: / is important - in case it is omitted we'd have all file names prefixed with folder - not a directory</strong>
+<pre>
 git archive --format=tar.gz --prefix=v1.1/ HEAD > /tmp/2.tgz
+</pre>
+Archive content:
 <pre>
 v1.1
   dict/
