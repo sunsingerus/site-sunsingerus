@@ -13,3 +13,4 @@ In case we need to update time with <code>ntp</code> just run
 <pre>
 sudo bash -c "service ntp stop && ntpdate time.nist.gov && service ntp start && date"
 </pre>
+As we can see, <code>bash -c</code> helps, as described in <a href="https://sunsingerus.com/how-to-redirect-output-in-sudo/" rel="noopener" target="_blank">here</a>
