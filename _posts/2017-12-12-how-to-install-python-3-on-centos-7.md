@@ -10,7 +10,7 @@ published: true
 post_date: 2017-12-12 11:25:30
 ---
 <h2>Python 3.4</h2>
-Python 3.4 packages for CentOS are available via <strong>epel</strong> repos
+Python 3.4 packages for CentOS are available via <strong>epel</strong> repo.
 <pre class="prettyprint">
 sudo yum install epel-release
 </pre>
@@ -18,7 +18,8 @@ sudo yum install epel-release
 sudo yum install python34 python34-devel python34-pip
 </pre>
 
-<h2>Python 3.5</h2>
+<h2>Python 3.6</h2>
+Python 3.6 packages for CentOS are available via <strong>IUS</strong> repo.
 Prepare
 <pre class="prettyprint">sudo yum -y install yum-utils
 </pre>
@@ -28,6 +29,8 @@ Install IUS repo
 Install Python 3.6
 <pre class="prettyprint">sudo yum -y install python36u python36u-pip python36u-devel
 </pre>
+
+<h2>Check Results</h2>
 Ensure Python available
 <pre class="prettyprint">python3.6 -V
 </pre>
