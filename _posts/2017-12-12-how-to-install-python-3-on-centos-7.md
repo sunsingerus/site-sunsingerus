@@ -5,13 +5,20 @@ author: sunsingerus
 post_excerpt: ""
 layout: post
 permalink: >
-  http://sunsingerus.com/how-to-install-python-3-on-centos-7/
+  https://sunsingerus.com/how-to-install-python-3-on-centos-7/
 published: true
 post_date: 2017-12-12 11:25:30
 ---
-Optional - update packages
-<pre class="prettyprint">sudo yum -y update
+<h2>Python 3.4</h2>
+Python 3.4 packages for CentOS are available via <strong>epel</strong> repos
+<pre class="prettyprint">
+sudo yum install epel-release
 </pre>
+<pre class="prettyprint">
+sudo yum install python34 python34-devel python34-pip
+</pre>
+
+<h2>Python 3.5</h2>
 Prepare
 <pre class="prettyprint">sudo yum -y install yum-utils
 </pre>
