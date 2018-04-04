@@ -56,3 +56,8 @@ This option can only be used by the root user. Regular users should pipe in the 
 <pre>
 fping < targets_file
 </pre>
+
+Another example:
+<pre>
+fping host{0,1,2}.example.org
+</pre>
