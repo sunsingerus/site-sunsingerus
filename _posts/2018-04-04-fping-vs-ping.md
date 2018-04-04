@@ -37,3 +37,22 @@ yahoo.com
  167 ms (max round trip time)
         0.193 sec (elapsed real time)
 </pre>
+
+Read hosts list from a file
+
+<pre>
+cat list.txt 
+nohost.example.com
+google.com
+yahoo.com
+</pre>
+
+and run as
+<pre>
+sudo fping -asf list.txt
+</pre>
+<strong>IMPORTANT</strong>
+This option can only be used by the root user. Regular users should pipe in the file via stdin:
+<pre>
+fping < targets_file
+</pre>
