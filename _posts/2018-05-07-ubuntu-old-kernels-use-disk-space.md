@@ -56,7 +56,7 @@ user@ubuntu: uname -r
 4.4.0-112-generic
 </pre>
 
-Looks like we can remove old kernels. Let's keep couple of latest, but we can remove 4.4.0-96 4.4.0-97 4.4.0-98 kernels .
+Looks like we can remove old kernels. Let's keep couple of latest, thus we can remove 4.4.0-96 4.4.0-97 4.4.0-98 kernels .
 
 <pre>
 user@ubuntu: sudo apt purge '*4.4.0-96*' '*4.4.0-96*' '*4.4.0-98*'
