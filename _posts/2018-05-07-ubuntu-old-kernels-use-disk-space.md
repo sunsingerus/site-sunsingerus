@@ -47,7 +47,7 @@ The simplest way possible for 16.04 and newer versions of Ubuntu is:
 sudo apt autoremove
 </pre>
 
-However, <code>autoremove</code> is not perfect, and sometimes it does not clean all old kernels. So, we can do in manually.
+However, <code>autoremove</code> is not perfect, and sometimes it does not clean all old kernels. So, we can do it manually.
 
 
 Check what kernel version we are running:
