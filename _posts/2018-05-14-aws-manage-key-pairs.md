@@ -17,7 +17,7 @@ On the left side menu select <code>Key Pairs</code> and then click <code>Create 
 Let's call it <code>ubuntu_key_pair</code> and click <code>Create</code>
 Download <code>.pem</code> file
 <img src="https://sunsingerus.com/wp-content/uploads/2018/05/2_download_pem_file.png" alt="" width="500" height="500" class="alignnone size-full wp-image-448" />
-which is a private key, with the following content
+which contains <strong>private key</strong>, with the content like the following:
 <pre>
 -----BEGIN RSA PRIVATE KEY-----
 MIIEowIBAAKCAQEAqgJJItUsUicOuTeW9PoCRxYetS63e5Qh4Ee18Y6lx+zoWT0EIF3HYdJvdZR+
