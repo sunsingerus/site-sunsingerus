@@ -25,3 +25,11 @@ MIIEowIBAAKCAQEAqgJJItUsUicOuTeW9PoCRxYetS63e5Qh4Ee18Y6lx+zoWT0EIF3HYdJvdZR+
 bj84nUsk2odCOD3+pGjzGaX13U0o4kCi+Pm0CBf342ICqyvDpnmOkEiH7adS1qxZdZE0
 -----END RSA PRIVATE KEY-----
 </pre>
+
+<h1>Delete key Pair</h1>
+Select Key Pair to be deleted and click <code>Delete Pair</code>
+<img src="https://sunsingerus.com/wp-content/uploads/2018/05/3_delete_key_pair.png" alt="" width="467" height="222" class="alignnone size-full wp-image-453" />
+
+<h1>Import Existing Key Pair</h1>
+click <code>Import key Pair</code> and select file with <strong>Public Key</strong> of the key pair. <strong>IMPORTANT</strong> - <code>.pem</code> file downloaded in <strong>Create new key Pair</strong> section earlier will NOT do - it contains <strong>private key</strong>. So you need to generate <strong>public key</strong> out of <strong>private key</strong> in case you have <code>.pem</code> file
+<img src="https://sunsingerus.com/wp-content/uploads/2018/05/4_import_public_key_from_the_pair.png" alt="" width="674" height="410" class="alignnone size-full wp-image-454" />
