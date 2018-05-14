@@ -25,6 +25,7 @@ MIIEowIBAAKCAQEAqgJJItUsUicOuTeW9PoCRxYetS63e5Qh4Ee18Y6lx+zoWT0EIF3HYdJvdZR+
 bj84nUsk2odCOD3+pGjzGaX13U0o4kCi+Pm0CBf342ICqyvDpnmOkEiH7adS1qxZdZE0
 -----END RSA PRIVATE KEY-----
 </pre>
+<strong>Public key</strong> of the key pair would be kept on the server and will not be downloaded. You can always generate <strong>public key</strong> out of your <strong>private key</strong> in case need be.
 
 <h1>Delete key Pair</h1>
 Select Key Pair to be deleted and click <code>Delete Pair</code>
