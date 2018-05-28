@@ -42,7 +42,7 @@ and git will call a text editor to enter annotation. Annotations can be multi-li
 
 Create tag for a specific commit
 <pre>
-git tag -a t1-specific-commit 8a5cbc430f1a9c3d00faaeffd07798508422908a 
+git tag -a t1-commit 8a5cbc430f1a9c3d00faaeffd07798508422908a 
 </pre>
 
 By default, tags are not pushed to remote repo, so you'd need to say something like
