@@ -40,5 +40,22 @@ git tag -a t1-annotated
 </pre>
 and git will call a text editor to enter annotation. Annotations can be multi-line.
 
-user@cinnamon ~/dev/tmp/clickhouse $ 
-user@cinnamon ~/dev/tmp/clickhouse $ git tag -l t1-annotated
+Create tag for a specific commit
+<pre>
+git tag -a v1.2 8a5cbc430f1a9c3d00faaeffd07798508422908a 
+</pre>
+
+By default, tags are not pushed to remote repo, so you'd need to say something like
+<pre>
+git push origin --tags
+</pre>
+in case you'd like to push all tags, or
+<pre>
+git push origin t1
+</pre>
+in case you'd like to push one tag only
+You can always <code>checkout</code> any tag with
+<pre>
+git checkout t1
+</pre>
+More details on getting specific tags in <a href="https://sunsingerus.com/how-to-get-a-specific-tag-with-git/" rel="noopener" target="_blank">this post</a>
