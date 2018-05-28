@@ -5,7 +5,7 @@ author: sunsingerus
 post_excerpt: ""
 layout: post
 permalink: >
-  http://sunsingerus.com/how-to-get-a-specific-tag-with-git/
+  https://sunsingerus.com/how-to-get-a-specific-tag-with-git/
 published: true
 post_date: 2017-12-25 11:06:58
 ---
@@ -32,8 +32,8 @@ We can list the tags with
 and checkout a specific tag:
 <pre>$ git checkout v1.1.54327-stable
 </pre>
-We are on a branch named after the revision number of tag, which is sometimes inconvenient.
-We can checkout and create a branch in one move:
+Running `git checkout <tag>` puts repository in "detached HEAD" state, which is sometimes inconvenient. Main issue with "detached HEAD" is that in case you'd make new commit it would not belong to any branch (because we are not on any branch right now, but in "detached HEAD" state) and this commit will be accessible by direct checksum. In most cases, this is not what we'd like to have, so in case you'd like to make commits you'd like to create a branch.
+We can checkout tag and create a branch in one move:
 <pre>$ git checkout v1.1.54327-stable -b v1.1.54327-stable
 </pre>
 <h5>Init submodules</h5>
