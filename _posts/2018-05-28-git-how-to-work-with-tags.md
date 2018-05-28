@@ -30,7 +30,7 @@ Create tag
 git tag t1
 </pre>
 
-Create tag with additional text annortation
+Create tag with additional text annotation
 <pre>
 git tag -a t1-annotated -m "text annotation to the tag"
 </pre>
