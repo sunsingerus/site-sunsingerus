@@ -19,7 +19,7 @@ if you need <strong>submodules</strong>, append <code>--recursive</code>
 </pre>
 For newer git<strong> ALL IS DONE</strong>
 
-Older versions can't fetch tag with <code>--branch v1.1.54327-stable</code>, we need another approach
+Older versions can't fetch tag with <code>--branch v1.1.54327-stable</code>, we need another approach: clone repo first and checkout to specific tag within cloned repo afterwards.
 <pre>$ git clone https://github.com/yandex/ClickHouse
 </pre>
 will give the whole repo. We need to checkout a specific tag within repo.
