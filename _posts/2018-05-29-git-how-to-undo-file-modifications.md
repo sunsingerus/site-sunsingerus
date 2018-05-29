@@ -13,4 +13,4 @@ for uncommitted files you just checkout latest committed version of the file:
 <pre>
 git checkout -- path/to/file
 </pre>
-Note <code>--</code> - it id important and specifies end of options for the command
+Note <code>--</code> pair - it is important and specifies end of options for the command and start of other params
