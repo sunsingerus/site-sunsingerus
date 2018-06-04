@@ -22,11 +22,11 @@ Check all is fine with:
 git remote -v
 </pre>
 
-<code>git pull</code> is a convenient shortcut for <code>git fetch</code> and <code>git merge</code>:
+<code>git pull</code> is a convenient shortcut for <code>git fetch</code> and <code>git merge</code>. As pull performs a merge on the fetched changes, we should ensure that local work is committed before running the pull command.
 <pre>
 git pull interestingrepo master
 </pre>
-As pull performs a merge on the fetched changes, we should ensure that local work is committed before running the pull command.
+
 Or, we can go with more classical way as <code>git fetch</code> and <code>git merge</code>
 Fetch everything from remote repo
 <pre>
