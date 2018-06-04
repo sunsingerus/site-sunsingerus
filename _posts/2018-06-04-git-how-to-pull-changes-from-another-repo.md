@@ -27,7 +27,7 @@ git remote -v
 git pull interestingrepo master
 </pre>
 As pull performs a merge on the fetched changes, we should ensure that local work is committed before running the pull command.
-Or, we can go with more classical way as <code>git fetch && git merge</code>
+Or, we can go with more classical way as <code>git fetch</code> and <code>git merge</code>
 Fetch everything from remote repo
 <pre>
 git fetch interesting repo
