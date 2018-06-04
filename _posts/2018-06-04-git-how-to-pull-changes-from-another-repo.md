@@ -11,9 +11,8 @@ permalink: >
 published: true
 post_date: 2018-06-04 14:08:28
 ---
-Suppose we see changes in another clone of repo on Github we'd like to have. How to pull these commits into our repo?
+Suppose we just found interesting changes in another clone of our repo on Github we'd like to have. How to pull these commits into our repo?
 Here are the steps:
-
 Add repo from which we'd like to fetch changes, as a remote repo
 <pre>
 git remote add interestingrepo https://github.com/user/repo-with-interesting-changes
