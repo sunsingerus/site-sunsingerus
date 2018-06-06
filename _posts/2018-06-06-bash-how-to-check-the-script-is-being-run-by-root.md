@@ -12,7 +12,7 @@ published: true
 post_date: 2018-06-06 09:24:36
 ---
 There are two ways at the moment.
-Classic style
+Classic, all shells compatible style, based in <code>id</code> utility
 <pre>
 if [ "$(id -u)" != "0" ]; then
    echo "Need to be root" 1>&2
