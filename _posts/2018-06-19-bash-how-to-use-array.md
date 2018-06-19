@@ -51,6 +51,6 @@ Loop until empty string found
 COUNT=0
 while [ "x${ARR[COUNT]}" != "x" ]
 do
-   count=$(( $COUNT + 1 ))
+   COUNT=$(( $COUNT + 1 ))
 done
 </pre>
