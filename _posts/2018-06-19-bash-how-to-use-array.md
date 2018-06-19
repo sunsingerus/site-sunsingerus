@@ -24,6 +24,14 @@ ARR=(
   "two"
   "three"
 )
+
+# sparse array declaration
+ARR=([0]="a" [1]="b" [4]="c" [15]="d" [26]="e")
+</pre>
+
+<h2>Append value</h2>
+<pre>
+ARR+=("new_element")
 </pre>
 
 <h2>Fetch value</h2>
