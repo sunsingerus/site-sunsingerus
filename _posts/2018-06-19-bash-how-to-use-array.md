@@ -45,12 +45,12 @@ one two three
 
 Fetch last avlue
 <pre>
-echo ${ARR[@]: -1}
+echo ${ARR[@]:-1}
 </pre>
 
-Fetch 3 values starting with index 2
+Fetch 2 values starting with index 1
 <pre>
-echo "${ARR[@]:2:3}"
+echo "${ARR[@]:1:2}"
 </pre>
 
 <h2>Delete value</h2>
