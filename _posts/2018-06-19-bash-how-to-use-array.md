@@ -28,3 +28,12 @@ one two three
 echo ${ARR[@]}
 one two three
 </pre>
+
+<h2>Delete value</h2>
+<pre>
+echo ${ARR[@]}
+one two three
+unset ARR[1]
+echo ${ARR[@]}
+one three
+</pre>
