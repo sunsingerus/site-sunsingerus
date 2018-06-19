@@ -50,7 +50,7 @@ echo ${ARR[@]: -1}
 
 Fetch 2 values starting with index 1
 <pre>
-echo "${ARR[@]:1:2}"
+echo ${ARR[@]:1:2}
 </pre>
 
 <h2>Delete value</h2>
