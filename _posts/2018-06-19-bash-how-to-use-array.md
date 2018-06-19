@@ -31,7 +31,7 @@ ARR=([0]="a" [1]="b" [4]="c" [15]="d" [26]="e")
 
 <h2>Append value</h2>
 <pre>
-ARR+=("new_element")
+ARR+=("new")
 </pre>
 
 <h2>Fetch value</h2>
@@ -41,6 +41,16 @@ echo ${ARR[*]}
 one two three
 echo ${ARR[@]}
 one two three
+</pre>
+
+Fetch last avlue
+<pre>
+echo ${ARR[@]: -1}
+</pre>
+
+Fetch 3 values starting with index 2
+<pre>
+echo "${ARR[@]:2:3}"
 </pre>
 
 <h2>Delete value</h2>
@@ -60,7 +70,13 @@ done
 </pre>
 
 <h2>Count values</h2>
-Loop until empty string found
+<pre>
+echo ${#ARR[@]}
+</pre>
+
+OR
+
+Loop until empty string found - does not work for sparse arrays
 <pre>
 COUNT=0
 while [ "x${ARR[COUNT]}" != "x" ]; do
