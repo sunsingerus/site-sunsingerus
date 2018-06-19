@@ -48,9 +48,9 @@ done
 <h2>Count values</h2>
 Loop until empty string found
 <pre>
-count=0
-while [ "x${ARR[count]}" != "x" ]
+COUNT=0
+while [ "x${ARR[COUNT]}" != "x" ]
 do
-   count=$(( $count + 1 ))
+   count=$(( $COUNT + 1 ))
 done
 </pre>
