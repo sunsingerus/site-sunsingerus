@@ -43,9 +43,9 @@ echo ${ARR[@]}
 one two three
 </pre>
 
-Fetch last avlue
+Fetch last value <strong>pay attention to the space between ':' and '-1'</strong>
 <pre>
-echo ${ARR[@]:-1}
+echo ${ARR[@]: -1}
 </pre>
 
 Fetch 2 values starting with index 1
