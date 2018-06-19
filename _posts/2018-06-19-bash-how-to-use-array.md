@@ -12,7 +12,13 @@ post_date: 2018-06-19 09:00:00
 <h2>Declaration</h2>
 
 <pre>
+# empty ARRAY declaration
+ARR=()
+
+# one-line declaration
 ARR=("one" "two" "three")
+
+# multi-line declaration
 ARR=(
   "one"
   "two"
