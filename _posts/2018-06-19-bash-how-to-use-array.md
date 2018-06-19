@@ -49,8 +49,7 @@ done
 Loop until empty string found
 <pre>
 COUNT=0
-while [ "x${ARR[COUNT]}" != "x" ]
-do
+while [ "x${ARR[COUNT]}" != "x" ]; do
    COUNT=$(( $COUNT + 1 ))
 done
 </pre>
