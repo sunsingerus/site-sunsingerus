@@ -37,3 +37,20 @@ unset ARR[1]
 echo ${ARR[@]}
 one three
 </pre>
+
+<h2>Iterate over array</h2>
+<pre>
+for i in ${ARR[@]}; do
+  echo $i
+done
+</pre>
+
+<h2>Count values</h2>
+Loop until empty string found
+<pre>
+count=0
+while [ "x${ARR[count]}" != "x" ]
+do
+   count=$(( $count + 1 ))
+done
+</pre>
