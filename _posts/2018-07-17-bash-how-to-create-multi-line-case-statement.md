@@ -40,7 +40,8 @@ case "$A" in
                 ;;
 esac
 </pre>
-and provides the most benefits when there are really many options to choose from, for example, like in this code sample
+
+and provides the most benefits when there are really many options to choose from, like in this snippet:
 
 <pre>
 case "$ITEM" in
