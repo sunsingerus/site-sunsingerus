@@ -11,7 +11,7 @@ permalink: >
 published: true
 post_date: 2018-07-17 11:11:05
 ---
-What if you'd like to have multi-line case statement?
+What if you'd like to have multi-line <code>case</code> statement?
 Here is an example:
 <pre>
 #!/bin/bash
@@ -29,7 +29,9 @@ case "$A" in
                 ;;
 esac
 </pre>
+
 Mainly, it is multi-line version of
+
 <pre>
 case "$A" in
         A | B | C )
@@ -86,6 +88,4 @@ case "$ITEM" in
                 exit 1
                 ;;
 esac
-
-
 </pre>
