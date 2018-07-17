@@ -29,3 +29,15 @@ case "$A" in
                 ;;
 esac
 </pre>
+Mainly, it is multi-line version of
+<pre>
+case "$A" in
+        A | B | C )
+                echo $A
+                ;;
+        *)
+                echo "Unknown"
+                ;;
+esac
+</pre>
+and provides the most benefits when there are really many options to choose from.
