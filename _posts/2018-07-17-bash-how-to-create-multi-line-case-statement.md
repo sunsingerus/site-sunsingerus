@@ -40,4 +40,51 @@ case "$A" in
                 ;;
 esac
 </pre>
-and provides the most benefits when there are really many options to choose from.
+and provides the most benefits when there are really many options to choose from, for example, like in this code sample
+
+<pre>
+case "$ITEM" in
+        DiskUsage)
+                du -sb "$CH_PATH" | awk '{print $1}'
+                ;;
+
+        Revision)
+                cat  "$CH_PATH/status" | grep Revision | awk '{print $2}'
+                ;;
+
+        LongestRunningQuery)
+                run_ch_process_command | sort | tail -1
+                ;;
+
+        DelayedInserts          | \
+        HTTPConnection          | \
+        InsertedBytes           | \
+        InsertedBytes           | \
+        InsertedRows            | \
+        InsertQuery             | \
+        MaxPartCountForPartition| \
+        MemoryTracking          | \
+        MergedRows              | \
+        MergedUncompressedBytes | \
+        Query                   | \
+        Read                    | \
+        ReadCompressedBytes     | \
+        ReplicasMaxAbsoluteDelay| \
+        ReplicasSumQueueSize    | \
+        SelectedParts           | \
+        SelectQuery             | \
+        TCPConnection           | \
+        Uptime                  | \
+        Write                   | \
+        ZooKeeperWatch          )
+                run_ch_metric_command "$ITEM"
+                ;;
+
+        *)
+                echo "Unknown argument '$ITEM'. Please check command to run"
+                exit 1
+                ;;
+esac
+
+
+</pre>
