@@ -11,7 +11,7 @@ permalink: >
 published: true
 post_date: 2018-09-05 10:07:18
 ---
-Press <strong>Shift-F2</strong>
+Press <code><strong>Shift-F2</strong></code>
 In the console type 
 <pre>
 screenshot [/path/to/file.png] --fullscreen
