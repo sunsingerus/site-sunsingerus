@@ -13,9 +13,9 @@ post_date: 2018-09-05 10:07:18
 ---
 Press <strong>Shift-F2</strong>
 In the console type 
-<code>
+<pre>
 screenshot [/path/to/file.png] --fullscreen
-</code>
+</pre>
 
 Where:
 <ul>
