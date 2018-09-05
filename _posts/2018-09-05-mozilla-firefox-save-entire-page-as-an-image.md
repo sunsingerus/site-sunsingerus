@@ -19,6 +19,6 @@ screenshot [/path/to/file.png] --fullscreen
 
 Where:
 <ul>
-<li><code>/path/to/file.png</code> must be with <code>.png<code> extension. Relative paths are relative to <code>downloads</code> folder</li>
+<li><code>/path/to/file.png</code> must be with <code>.png</code> extension. Relative paths are relative to <code>downloads</code> folder</li>
 <li><code>--fullscreen</code> specifies that we'd like to have the entire page, not only visible part</li>
 </ul>
