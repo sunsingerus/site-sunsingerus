@@ -16,7 +16,7 @@ Edit config file
  vim /etc/postgresql/10/main/pg_hba.conf
 </code>
 And specify <strong>trust</strong> as an auth method for local users
-<code style="width: 700 px">
+<pre width="100">
 # Database administrative login by Unix domain socket
 local   all             postgres                                trust
 
@@ -28,4 +28,4 @@ local   all             all                                     trust
 host    all             all             127.0.0.1/32            trust
 # IPv6 local connections:
 host    all             all             ::1/128                 trust
-</code>
+</pre>
